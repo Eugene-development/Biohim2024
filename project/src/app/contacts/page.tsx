@@ -1,4 +1,4 @@
-import { Contacts } from "@/UI";
+import { Contacts, Map } from "@/UI";
 import { FadeIn } from "@/func/motion/FadeIn";
 
 export default function page() {
@@ -25,6 +25,7 @@ export default function page() {
         <div className=" bg-white mt-24 sm:mt-48">
           <FadeIn>
             <Contacts />
+            <Map/>
           </FadeIn>
         </div>
         <div

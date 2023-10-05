@@ -1,7 +1,9 @@
 import {
   LifebuoyIcon,
-  NewspaperIcon,
+  EnvelopeIcon,
   PhoneIcon,
+  NewspaperIcon,
+  BuildingOfficeIcon
 } from "@heroicons/react/20/solid";
 
 const cards = [
@@ -25,7 +27,7 @@ const cards = [
 
 export default () => {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-50 py-20 sm:py-32">
+    <div className="relative isolate overflow-hidden bg-gray-50 pt-20 sm:pt-32">
       {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
         <div
           className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
@@ -56,7 +58,7 @@ export default () => {
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 ">
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
-            <LifebuoyIcon
+            <BuildingOfficeIcon
               className="h-7 w-5 flex-none text-gray-900"
               aria-hidden="true"
             />
@@ -68,7 +70,7 @@ export default () => {
             </div>
           </div>
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
-            <LifebuoyIcon
+            <PhoneIcon
               className="h-7 w-5 flex-none text-gray-900"
               aria-hidden="true"
             />
@@ -78,7 +80,7 @@ export default () => {
             </div>
           </div>
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
-            <LifebuoyIcon
+            <EnvelopeIcon
               className="h-7 w-5 flex-none text-gray-900"
               aria-hidden="true"
             />

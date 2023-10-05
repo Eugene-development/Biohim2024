@@ -10,3 +10,4 @@ export { default as Actions } from "./Actions/v1";
 export { default as Contacts } from "./Contacts/v1";
 export { default as Information } from "./Information/v1";
 export { default as DescriptionProduct } from "./DescriptionProduct/v1";
+export { default as Map } from "./Map/v1";
