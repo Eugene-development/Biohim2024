@@ -164,7 +164,8 @@ export default () => {
             Информация
           </h2>
           <p className="mb-8 font-light lg:text-xl">
-            Подробная информация о продукции, областях применения и процессах изготовления
+            Подробная информация о продукции, областях применения и процессах
+            изготовления
           </p>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-10 gap-y-12 sm:gap-y-20   sm:mt-16  lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -196,7 +197,11 @@ export default () => {
                 </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
-                <img src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg" alt="логотип" className="h-10 w-10 rounded-full bg-gray-50" />
+                <img
+                  src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
+                  alt="логотип"
+                  className="h-10 w-10 rounded-full bg-gray-50"
+                />
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-gray-900">
                     <Link href={post.author.href}>

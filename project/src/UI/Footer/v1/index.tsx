@@ -128,15 +128,15 @@ export default () => {
           </div> */}
           <div className="hidden lg:block pl-36 not-italic">
             <Link
-            href="/"
-            className="flex items-center mb-6 text-2xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
-          >
-            <img
-              className="h-32 w-auto"
-              src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
-              alt="логотип"
-            />
-          </Link>
+              href="/"
+              className="flex items-center mb-6 text-2xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
+            >
+              <img
+                className="h-32 w-auto"
+                src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
+                alt="логотип"
+              />
+            </Link>
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

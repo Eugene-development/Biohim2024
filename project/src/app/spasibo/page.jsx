@@ -3,7 +3,7 @@ import { FadeIn } from "@/func/motion/FadeIn";
 
 export default function page() {
   return (
-          <div className="bg-gray-900">
+    <div className="bg-gray-900">
       <div className="relative isolate overflow-hidden ">
         {/* <img
           src="https://mos-522755.oml.ru/d/himiya.png"
@@ -25,7 +25,6 @@ export default function page() {
         <div className=" bg-white mt-24 sm:mt-48">
           <FadeIn>
             <Spasibo />
-
           </FadeIn>
         </div>
         <div
@@ -42,8 +41,5 @@ export default function page() {
         </div>
       </div>
     </div>
-
-
-  )
-  
+  );
 }
