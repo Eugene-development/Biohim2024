@@ -1,3 +1,4 @@
+import Link from "next/link";
 const productions = [
   {
     name: "Перекись водорода медицинская",
@@ -74,8 +75,8 @@ export default () => {
                 <p className="mb-8 font-light lg:text-lg">{item.resume}</p>
               </div>
 
-              <a
-                href="#"
+              <button 
+                
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-cyan-600 hover:bg-red-900 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
               >
                 Запросить оптовую цену
@@ -91,13 +92,13 @@ export default () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </a>
-              <a
+              </button>
+              <Link
                 href="#"
                 className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Применение
-              </a>
+              </Link>
             </div>
           </div>
         ))}
