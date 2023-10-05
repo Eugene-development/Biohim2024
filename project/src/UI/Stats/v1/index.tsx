@@ -1,18 +1,19 @@
 import Link from "next/link";
 
 const stats = [
-  { id: 1, name: "Creators on the ", value: "8,000+" },
-  { id: 2, name: "Flat platform fee", value: "3%" },
-  { id: 3, name: "Uptime guarantee", value: "99.9%" },
+  { id: 1, name: "Отгружено тонн продукции", value: "4000+" },
+  { id: 2, name: "Мы на связи с вами", value: "24/7" },
+  { id: 3, name: "Гарантии качества", value: "100%" },
 ];
+
 export default () => {
   return (
     <div className="relative bg-white">
       <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-16">
         <div className="z-50 px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
           <div className="mx-auto px-8 max-w-3xl lg:mx-0">
-            <h1 className="mt-4  sm:mt-20 font-bold  text-indigo-950 text-2xl sm:text-4xl lg:text-6xl ">
-              Компания &#171;БИОХИМ&#187;
+            <h1 className="mt-4  sm:mt-20 font-extrabold   text-indigo-950 text-2xl sm:text-4xl lg:text-6xl ">
+              {/* &#171;БИОХИМ&#187; */} Перекись водорода
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой

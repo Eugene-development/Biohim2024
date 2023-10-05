@@ -29,7 +29,7 @@ export default () => {
     <section className="bg-white dark:bg-gray-900 py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-400 dark:border-gray-700">
-          <h2 className="mb-4 text-4xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl sm:text-6xl tracking-tight font-display font-extrabold text-gray-900 dark:text-white">
             Продукция
           </h2>
           <p className="mb-8 font-light lg:text-xl">
