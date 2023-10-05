@@ -10,11 +10,11 @@ export default () => {
     <div className="relative bg-white">
       <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-16">
         <div className="z-50 px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
-          <div className="mx-auto max-w-3xl lg:mx-0">
-            <h1 className="mt-4 sm:mt-20 font-bold  text-indigo-950 text-2xl sm:text-4xl lg:text-6xl ">
+          <div className="mx-auto px-8 max-w-3xl lg:mx-0">
+            <h1 className="mt-4  sm:mt-20 font-bold  text-indigo-950 text-2xl sm:text-4xl lg:text-6xl ">
               Компания &#171;БИОХИМ&#187;
             </h1>
-            <p className="mt-6 text-base leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
               нашей гордостью. Мы поставляем медицинскую и техническую перекись
@@ -23,7 +23,7 @@ export default () => {
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
             </p>
-            <p className="mt-2 text-base leading-8 text-gray-600">
+            <p className="mt-2 text-lg leading-8 text-gray-600">
               Наша команда профессионалов всегда готова предоставить вам
               необходимую информацию и консультации о наших продуктах. Мы
               стремимся к тому, чтобы сотрудничество с нами было максимально
@@ -31,7 +31,7 @@ export default () => {
               готовы рассмотреть индивидуальные условия сотрудничества, чтобы
               удовлетворить их уникальные потребности.
             </p>
-            <p className="mt-2 text-base leading-8 text-gray-600">
+            <p className="mt-2 text-lg leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
               нашей гордостью. Мы поставляем медицинскую и техническую перекись
@@ -40,7 +40,7 @@ export default () => {
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
             </p>
-            <div className="mt-40 flex items-center gap-x-6">
+            <div className="mt-24 flex items-center gap-x-6">
               <Link
                 href="/contacts"
                 className="rounded-full bg-lime-500 px-10 py-3 font-semibold text-white shadow-sm hover:bg-indigo-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

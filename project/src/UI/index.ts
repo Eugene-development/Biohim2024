@@ -1,3 +1,4 @@
+export { default as Spasibo } from "./Spasibo/v1";
 export { default as Menu } from "./Menu/v1";
 export { default as Footer } from "./Footer/v1";
 export { default as Hero } from "./Hero/v1";

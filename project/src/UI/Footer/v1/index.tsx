@@ -4,7 +4,7 @@ export default () => {
   return (
     <footer className="bg-gray-900">
       <div className="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
-        <div className="gap-8 space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:space-y-0">
+        <div className="gap-8 space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:space-y-0 space-x-8">
           <address className="not-italic">
             <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
               Контакты
@@ -86,6 +86,46 @@ export default () => {
               </li>
             </ul>
           </div>
+          {/* <div className="not-italic">
+            <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
+              Разделы сайта
+            </p>
+
+            <ul className="space-y-3 text-gray-50 dark:text-gray-400">
+              <li>
+                <Link
+                  href="/production"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Продукция
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/actions"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Акция
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/information"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Информация
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contacts"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Контакты
+                </Link>
+              </li>
+            </ul>
+          </div> */}
           <div className="hidden lg:block pl-36 not-italic">
             <Link
             href="/"

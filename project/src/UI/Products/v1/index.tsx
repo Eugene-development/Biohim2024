@@ -49,7 +49,7 @@ export default () => {
                   {item.characteristics.map((character, index) => (
                     <li key={`item_${index}`} className="flex space-x-3 ">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 text-lime-500 dark:text-primary-500"
+                        className="flex-shrink-0 w-5 h-5 text-cyan-700 dark:text-primary-500"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -72,9 +72,9 @@ export default () => {
 
             <a
               href="#"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-lime-500 hover:bg-primary-900 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-cyan-600 hover:bg-red-900 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
-              Заказать
+              Запросить оптовую цену
               <svg
                 className="w-5 h-5 ml-2 -mr-1"
                 fill="currentColor"
@@ -90,9 +90,9 @@ export default () => {
             </a>
             <a
               href="#"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
-              Узнать цену
+              Применение
             </a>
 </div>
           </div>
