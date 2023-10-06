@@ -22,6 +22,18 @@ const productions = [
     characteristics: ["state", "character", "characteristic"],
     resume: "По вопросам приобретения обращайтесь к нашим менеджерам",
   },
+  {
+    name: "Перекись водорода марка Б-51%",
+    description: "Применяется в медицинских целях",
+    characteristics: ["state", "character", "characteristic"],
+    resume: "По вопросам приобретения обращайтесь к нашим менеджерам",
+  },
+  {
+    name: "Перекись водорода марка В-60%",
+    description: "Применяется в медицинских целях",
+    characteristics: ["state", "character", "characteristic"],
+    resume: "По вопросам приобретения обращайтесь к нашим менеджерам",
+  },
 ];
 
 export default () => {
@@ -40,9 +52,9 @@ export default () => {
         {productions.map((item) => (
           <div
             key={item.name}
-            className="py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6 border-b"
+            className="py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6 border-b "
           >
-            <div className="items-center ">
+            <div className="items-center">
               <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   {item.name}
