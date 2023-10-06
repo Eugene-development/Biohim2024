@@ -12,10 +12,11 @@ export default () => {
       <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-16">
         <div className="z-50 px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
           <div className="mx-auto px-8 max-w-3xl lg:mx-0">
-            <h1 className="mt-4  sm:mt-20 font-extrabold   text-indigo-950 text-2xl sm:text-4xl lg:text-6xl ">
-              {/* &#171;БИОХИМ&#187; */} Перекись водорода
+            <h1 className="mt-4  sm:mt-20 font-bold font-display  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
+              {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
+              перекись <span className="lg:text-7xl font-extrabold">ВОДОРОДА</span> H2O2
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 sm:mt-12 text-lg leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
               нашей гордостью. Мы поставляем медицинскую и техническую перекись
@@ -32,7 +33,7 @@ export default () => {
               готовы рассмотреть индивидуальные условия сотрудничества, чтобы
               удовлетворить их уникальные потребности.
             </p>
-            <p className="mt-2 text-lg leading-8 text-gray-600">
+            {/* <p className="mt-2 text-lg leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
               нашей гордостью. Мы поставляем медицинскую и техническую перекись
@@ -40,7 +41,7 @@ export default () => {
               необходимым стандартам безопасности и качества. Мы понимаем
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
-            </p>
+            </p> */}
             <div className="mt-24 flex items-center gap-x-6">
               <Link
                 href="/contacts"
@@ -71,12 +72,12 @@ export default () => {
           <img
             src="https://mos-522755.oml.ru/thumb/2/qCRqK04zbRqzb5JumjWnOA/1920r1080/d/55291941_2.jpg"
             alt=""
-            className="mt-8 h-[30rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-36"
+            className="mt-8 h-[30rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-24"
           />
           <img
             src="https://mos-522755.oml.ru/thumb/2/tN3tnp0BE1RhibfOSUDzJA/1920r1080/d/55291937_2.jpg"
             alt=""
-            className="mt-8 h-[30rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-36"
+            className="mt-8 h-[30rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-24"
           />
         </div>
       </div>
