@@ -12,7 +12,7 @@ const productions = [
   },
   {
     name: "Перекись водорода марка А-37%",
-    description: "Применяется в медицинских целях",
+    description: "Наличие уточняйте у менеджера",
     characteristics: ["state", "character", "characteristic"],
     resume: "По вопросам приобретения обращайтесь к нашим менеджерам",
   },
@@ -52,11 +52,11 @@ export default () => {
         {productions.map((item) => (
           <div
             key={item.name}
-            className="py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6 border-b "
+            className="flex py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-12 lg:px-6 border-b "
           >
             <div className="items-center">
               <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-                <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   {item.name}
                 </h2>
                 <p className="mb-8 font-light lg:text-lg">{item.description}</p>
@@ -112,7 +112,17 @@ export default () => {
                 Применение
               </Link>
             </div>
+            <div className="hidden lg:block pl-36 not-italic">
+            
+              <img
+                className="ml-24 h-96 w-auto"
+                src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
+                alt="логотип"
+              />
+            
           </div>
+          </div>
+          
         ))}
       </div>
     </section>
