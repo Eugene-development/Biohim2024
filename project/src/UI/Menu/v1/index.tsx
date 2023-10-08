@@ -30,14 +30,14 @@ export default function index() {
             />
           </Link>
           <div>
-            {/* <span className="p-1 text-gray-50 text-xl">БИОХИМ</span> */}
+            <p className="p-1 ml-2 mt-2 font-display text-gray-50 text-4xl"> Компания &#171;БИОХИМ&#187;</p>
             {/* <p className="px-1 py-1 text-gray-50 text-xs sm:text-sm">Перекись водорода</p> */}
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <div className="bg-lime-500 p-3 mr-2 rounded-full flex items-center">
+          <div className=" p-3 mr-2 rounded-full flex items-center">
             <svg
-              className="h-4 w-4 sm:h-10 sm:w-10 text-gray-50"
+              className="h-5 w-5 sm:h-12 sm:w-12 text-gray-50"
               fill="none"
               stroke="currentColor"
               strokeWidth="2"
@@ -52,7 +52,7 @@ export default function index() {
             </svg>
           </div>
           <div>
-            <p className="ml-3 text-gray-50">г. Москва</p>
+            <p className="ml-3 mt-3 text-gray-50">г. Москва</p>
             <a
               href="tel:+79302765650"
               className="ml-3 text-2xl font-semibold leading-6 text-white"
@@ -88,7 +88,7 @@ export default function index() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-base font-semibold leading-6 text-white transition ease-in-out hover:scale-110"
+              className="text-base font-semibold leading-6 text-white transition ease-in-out hover:scale-125"
             >
               {item.name}
             </Link>

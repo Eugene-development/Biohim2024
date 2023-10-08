@@ -27,7 +27,7 @@ const cards = [
 
 export default () => {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-50 pt-20 sm:pt-32">
+    <div className="relative isolate overflow-hidden  pt-20 sm:pt-32">
       {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
         <div
           className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
@@ -52,14 +52,14 @@ export default () => {
             Контакты
           </h2>
           <p className="mb-8 font-light lg:text-xl">
-            Связаться с нами вы можете любым удобным для вас способом по
-            электронной почте, по телефону или личным визитом.
+            Связаться с нами вы можете любым удобным для Вас способом по
+            электронной почте или по телефону.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 ">
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
             <BuildingOfficeIcon
-              className="h-7 w-5 flex-none text-gray-900"
+              className="h-7 w-5 flex-none text-red-900"
               aria-hidden="true"
             />
             <div className="text-base leading-7">
@@ -71,7 +71,7 @@ export default () => {
           </div>
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
             <PhoneIcon
-              className="h-7 w-5 flex-none text-gray-900"
+              className="h-7 w-5 flex-none text-red-900"
               aria-hidden="true"
             />
             <div className="text-base leading-7">
@@ -81,7 +81,7 @@ export default () => {
           </div>
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
             <EnvelopeIcon
-              className="h-7 w-5 flex-none text-gray-900"
+              className="h-7 w-5 flex-none text-red-900"
               aria-hidden="true"
             />
             <div className="text-base leading-7">
@@ -102,7 +102,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-gray-900"
+                  className="h-5 w-5 text-red-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -123,7 +123,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-gray-900"
+                  className="h-5 w-5 text-red-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -142,7 +142,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-gray-900"
+                  className="h-5 w-5 text-red-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -163,7 +163,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-gray-900"
+                  className="h-5 w-5 text-red-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"

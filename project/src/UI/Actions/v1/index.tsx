@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => {
   return (
-    <section className="bg-white dark:bg-gray-900  py-20 sm:py-32">
+    <section className="bg-[url('https://mos-522755.oml.ru/d/fon_2.png')]  py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-400 dark:border-gray-700">
           <h2 className="mb-4 text-4xl sm:text-6xl tracking-tight font-display font-extrabold text-gray-900 dark:text-white">
@@ -47,7 +47,7 @@ export default () => {
               Узнать цену
             </a> */}
           </div>
-          <div className="hidden lg:mt-0 ml-4 lg:col-span-5 lg:flex">
+          <div className="hidden lg:mt-0 ml-12 lg:col-span-5 lg:flex">
             <img
               src="https://chopveteran.ru/upload/iblock/11c/11c39cfc6f0c9f5d653efdc56ef5c8bf.png"
               alt="mockup"
@@ -87,7 +87,7 @@ export default () => {
               Узнать цену
             </a> */}
           </div>
-          <div className="hidden lg:mt-0 ml-4 lg:col-span-5 lg:flex">
+          <div className="hidden lg:mt-0 ml-12 lg:col-span-5 lg:flex">
             <img
               src="https://chopveteran.ru/upload/iblock/11c/11c39cfc6f0c9f5d653efdc56ef5c8bf.png"
               alt="mockup"
