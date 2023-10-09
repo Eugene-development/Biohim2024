@@ -13,14 +13,14 @@ export default () => {
             взаимовыгодного сотрудничества
           </p>
         </div>
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="grid lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 max-w-screen-xl">
+        <div className="  px-4 py-8 mx-auto  ">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h2 className="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl  dark:text-white">
-              Каждая пятая канистра в подарок
+              Акция "СКИДКА" с 1 июля до 31 декабря 2023
             </h2>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Приобретая 4 канистры 10л медицинской перекиси водорода пятую мы
-              предоставляем в подарок
+              Перекись водорода марка А - 37% по цене 80 р/кг с НДС и необходимой тарой 
             </p>
             <a
               href="#"
@@ -47,20 +47,20 @@ export default () => {
               Узнать цену
             </a> */}
           </div>
-          <div className="hidden lg:mt-0 ml-12 lg:col-span-5 lg:flex">
+          {/* <div className="hidden lg:mt-0 ml-12 lg:col-span-5 lg:flex">
             <img
               src="https://chopveteran.ru/upload/iblock/11c/11c39cfc6f0c9f5d653efdc56ef5c8bf.png"
               alt="mockup"
             />
-          </div>
+          </div> */}
         </div>
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
+        <div className="  px-4 py-8 mx-auto  ">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h2 className="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl  dark:text-white">
-              Доставка по московской области бесплатно
+              Акция "ПОДАРОК" с 1 июля до 31 декабря 2023
             </h2>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              При условии приобретения 2 тонн продукции единовременно со 100 процентной предоплатой 
+              Приобретая 99 канистр по 10л медицинской перекиси мы дарим вам дополнительно 1 канистру 10л в подарок 
             </p>
             <a
               href="#"
@@ -87,12 +87,15 @@ export default () => {
               Узнать цену
             </a> */}
           </div>
-          <div className="hidden lg:mt-0 ml-12 lg:col-span-5 lg:flex">
+          {/* <div className="hidden lg:mt-0 ml-12 lg:col-span-5 lg:flex">
             <img
               src="https://chopveteran.ru/upload/iblock/11c/11c39cfc6f0c9f5d653efdc56ef5c8bf.png"
               alt="mockup"
             />
-          </div>
+          </div> */}
+        </div>
+
+
         </div>
       </div>
     </section>

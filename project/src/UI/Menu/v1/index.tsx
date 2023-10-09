@@ -30,7 +30,7 @@ export default function index() {
             />
           </Link>
           <div className="hidden xl:block">
-            <p className="p-1 ml-2 mt-2 font-display text-gray-50 text-4xl"> Компания &#171;БИОХИМ&#187;</p>
+            <p className="p-1 ml-3 mt-2 font-display font-bold text-gray-50 text-5xl"> Компания &#171;БИОХИМ&#187;</p>
             {/* <p className="px-1 py-1 text-gray-50 text-xs sm:text-sm">Перекись водорода</p> */}
           </div>
         </div>
