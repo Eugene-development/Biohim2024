@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default () => {
   return (
-    <div className="bg-gray-900">
+    <div className="">
       <div className="relative isolate overflow-hidden py-24">
         <img
           src="https://mos-522755.oml.ru/d/himiya.png"
@@ -10,7 +10,7 @@ export default () => {
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
         <div
-          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 "
           aria-hidden="true"
         >
           <div

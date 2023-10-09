@@ -29,13 +29,13 @@ export default function index() {
               alt="логотип"
             />
           </Link>
-          <div>
+          <div className="hidden xl:block">
             <p className="p-1 ml-2 mt-2 font-display text-gray-50 text-4xl"> Компания &#171;БИОХИМ&#187;</p>
             {/* <p className="px-1 py-1 text-gray-50 text-xs sm:text-sm">Перекись водорода</p> */}
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <div className=" p-3 mr-2 rounded-full flex items-center">
+          {/* <div className=" p-3 mr-2 rounded-full flex items-center">
             <svg
               className="h-5 w-5 sm:h-12 sm:w-12 text-gray-50"
               fill="none"
@@ -50,12 +50,12 @@ export default function index() {
                 strokeLinejoin="round"
               />
             </svg>
-          </div>
+          </div> */}
           <div>
-            <p className="ml-3 mt-3 text-gray-50">г. Москва</p>
+            <p className="ml-3 my-2 bp-1 text-lg text-lime-300">biohim.org@yandex.ru</p>
             <a
               href="tel:+79302765650"
-              className="ml-3 text-2xl font-semibold leading-6 text-white"
+              className="ml-3 mt-1 text-3xl font-semibold leading-6 text-white"
             >
               +7 (930) 276-56-50
             </a>
