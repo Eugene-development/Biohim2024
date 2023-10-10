@@ -14,25 +14,24 @@ export default () => {
           <div className="mx-auto px-8 max-w-3xl lg:mx-0">
             <h1 className="mt-4  sm:mt-20 font-bold font-display  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
               {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
-              перекись <span className="lg:text-7xl font-extrabold">ВОДОРОДА</span> H2O2
+              перекись <br/> <span className="lg:text-7xl font-extrabold">ВОДОРОДА</span> <br/> H<span className="text-2xl">2</span>O<span className="text-2xl">2</span>
             </h1>
             <p className="mt-6 sm:mt-12 text-base leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
-              нашей гордостью. Мы поставляем медицинскую и техническую перекись
-              водорода высочайшего качества, и наша продукция отвечает всем
+              нашей гордостью. Мы поставляем все сорта перекиси водорода высочайшего качества, и наша продукция отвечает всем
               необходимым стандартам безопасности и качества. Мы понимаем
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
             </p>
-            <p className="mt-2 text-base leading-8 text-gray-600">
+            {/* <p className="mt-2 text-base leading-8 text-gray-600">
               Наша команда профессионалов всегда готова предоставить вам
               необходимую информацию и консультации о наших продуктах. Мы
               стремимся к тому, чтобы сотрудничество с нами было максимально
               удобным и выгодным для наших клиентов. Мы ценим каждого клиента и
               готовы рассмотреть индивидуальные условия сотрудничества, чтобы
               удовлетворить их уникальные потребности.
-            </p>
+            </p> */}
             {/* <p className="mt-2 text-lg leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
@@ -72,12 +71,12 @@ export default () => {
           <img
             src="https://mos-522755.oml.ru/thumb/2/qCRqK04zbRqzb5JumjWnOA/1920r1080/d/55291941_2.jpg"
             alt=""
-            className="mt-8 h-[30rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-24"
+            className="mt-8 h-[24rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-24"
           />
           <img
             src="https://mos-522755.oml.ru/thumb/2/tN3tnp0BE1RhibfOSUDzJA/1920r1080/d/55291937_2.jpg"
             alt=""
-            className="mt-8 h-[30rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-24"
+            className="mt-8 h-[24rem] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-16 lg:max-w-3xl xl:row-span-2 xl:row-end-2 xl:mt-24"
           />
         </div>
       </div>

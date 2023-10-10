@@ -4,7 +4,7 @@ export default () => {
   return (
     <footer className="bg-gray-900">
       <div className="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
-        <div className="gap-8 space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:space-y-0 space-x-8">
+        <div className="gap-8 space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:space-y-0 space-x-8">
           <address className="not-italic">
             <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
               Контакты
@@ -86,47 +86,47 @@ export default () => {
               </li>
             </ul>
           </div>
-          {/* <div className="not-italic">
+          <div className="not-italic">
             <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
-              Разделы сайта
+              Реквизиты
             </p>
 
             <ul className="space-y-3 text-gray-50 dark:text-gray-400">
               <li>
-                <Link
-                  href="/production"
+                <p
+                  
                   className="mb-3 text-gray-50 dark:text-gray-400"
                 >
-                  Продукция
-                </Link>
+                  ИП Попугаев Илья Игоревич
+                </p>
               </li>
               <li>
-                <Link
-                  href="/actions"
+                <p
+                  
                   className="mb-3 text-gray-50 dark:text-gray-400"
                 >
-                  Акция
-                </Link>
+                  ОГРНИП 323861700054415
+                </p>
               </li>
               <li>
-                <Link
-                  href="/information"
+                <p
+                  
                   className="mb-3 text-gray-50 dark:text-gray-400"
                 >
-                  Информация
-                </Link>
+                  ИНН 861903101837
+                </p>
               </li>
               <li>
-                <Link
-                  href="/contacts"
+                <p
+                  
                   className="mb-3 text-gray-50 dark:text-gray-400"
                 >
-                  Контакты
-                </Link>
+                  ОКВЭД 46.75
+                </p>
               </li>
             </ul>
-          </div> */}
-          <div className="hidden lg:block pl-36 not-italic">
+          </div>
+          {/* <div className="hidden lg:block pl-36 not-italic">
             <Link
               href="/"
               className="flex items-center mb-6 text-2xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
@@ -137,7 +137,7 @@ export default () => {
                 alt="логотип"
               />
             </Link>
-          </div>
+          </div> */}
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="flex flex-col justify-between items-center lg:flex-row">

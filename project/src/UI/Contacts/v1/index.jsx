@@ -176,7 +176,7 @@ export default () => {
                   />
                 </svg>
               </div>
-              <p className="ml-3 text-base text-gray-700">ОКВЭД: 46.75</p>
+              <p className="ml-3 text-base text-gray-700">ОКВЭД 46.75</p>
             </li>
           </ul>
         </div>

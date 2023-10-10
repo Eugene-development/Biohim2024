@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 export default function index() {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -29,6 +29,12 @@ export default function index() {
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
                 Применяется в медицинской, фармацевтической, косметической, пищевой и в других видах промышленности.
               </p>
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Подробнее
+              </Link>
             </div>
           </div>
           <div>
@@ -47,6 +53,12 @@ export default function index() {
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
                 Применяется в химической, текстильной, целлюлозно-бумажной, деревообрабатывающей и в других видах промышленности. 
               </p>
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Подробнее
+              </Link>
             </div>
           </div>
           <div>
@@ -63,9 +75,16 @@ export default function index() {
                 Асептическая перекись водорода
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Пероксид водорода асептический является технологическим вспомогательным средством широкого применения.
+                Пероксид водорода асептический применяются в пищевой промышленности для асептической обработки упаковочных материалов. 
               </p>
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Подробнее
+              </Link>
             </div>
+            
           </div>
           <div>
             <img
@@ -83,6 +102,12 @@ export default function index() {
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
                 Применяется в технических целях в радиоэлектронной аппаратуре. Используется в полупроводниках, космической технике и приборах.
               </p>
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Подробнее
+              </Link>
             </div>
           </div>
         </div>
