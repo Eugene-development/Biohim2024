@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const stats = [
-  { id: 1, name: "Партнёров в РФ в странах СНГ", value: "40+" },
-  { id: 2, name: "Лет на рынке химического сырья", value: "12+" },
+  { id: 1, name: "Партнёров в России и в странах СНГ", value: "40+" },
+  { id: 2, name: "Лет на оптовом рынке химического сырья", value: "12+" },
   { id: 3, name: "Гарантии качества отпускаемой продукции", value: "100%" },
 ];
 
@@ -22,6 +22,8 @@ export default () => {
               необходимым стандартам безопасности и качества. Мы понимаем
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
+              Наша команда профессионалов всегда готова предоставить вам
+              необходимую информацию и консультации о наших продуктах.
             </p>
             {/* <p className="mt-2 text-base leading-8 text-gray-600">
               Наша команда профессионалов всегда готова предоставить вам
@@ -40,7 +42,7 @@ export default () => {
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
             </p> */}
-            <div className="mt-32 flex items-center gap-x-6">
+            <div className="mt-24 flex items-center gap-x-6">
               <Link
                 href="/contacts"
                 className="rounded-full bg-lime-500 px-10 py-3 font-semibold text-white shadow-sm hover:bg-indigo-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -53,7 +55,7 @@ export default () => {
           <div className="hidden md:block">
             <dl className=" mt-12 lg:-mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-1 lg:grid-cols-3 shadow-2xl">
               {stats.map((stat) => (
-                <div key={stat.id} className=" flex flex-col bg-indigo-950 p-8">
+                <div key={stat.id} className=" flex flex-col bg-indigo-950 px-8 py-6">
                   <dd className=" order-first text-4xl font-semibold tracking-tight text-lime-200">
                     {stat.value}
                   </dd>

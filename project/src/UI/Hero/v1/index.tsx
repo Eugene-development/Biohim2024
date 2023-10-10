@@ -7,7 +7,7 @@ export default () => {
         <img
           src="https://mos-522755.oml.ru/d/himiya.png"
           alt=""
-          className="absolute inset-0 -z-10 h-[70rem] w-full object-cover"
+          className="absolute inset-0 -z-10 h-[68rem] w-full object-cover"
         />
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 "
