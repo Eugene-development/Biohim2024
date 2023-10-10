@@ -14,8 +14,7 @@ export default () => {
           <div className="mx-auto px-8 max-w-3xl lg:mx-0">
             <h1 className="mt-4  sm:mt-20 font-bold font-display  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
               {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
-              перекись <br/> <span className="lg:text-7xl font-extrabold">ВОДОРОДА</span> <br/> H<span className="text-2xl">2</span>O<span className="text-2xl">2</span>
-            </h1>
+<p className="p-1  mt-2 font-display font-bold text-gray-800 text-4xl"> Компания <span className="text-7xl font-extrabold">&#171;БИОХИМ&#187;</span> </p>            </h1>
             <p className="mt-6 sm:mt-12 text-base leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
@@ -41,7 +40,7 @@ export default () => {
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
             </p> */}
-            <div className="mt-24 flex items-center gap-x-6">
+            <div className="mt-32 flex items-center gap-x-6">
               <Link
                 href="/contacts"
                 className="rounded-full bg-lime-500 px-10 py-3 font-semibold text-white shadow-sm hover:bg-indigo-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

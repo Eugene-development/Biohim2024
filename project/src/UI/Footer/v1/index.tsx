@@ -143,7 +143,7 @@ export default () => {
         <div className="flex flex-col justify-between items-center lg:flex-row">
           <Link
             href="/"
-            className="flex items-center mb-6 text-xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
+            className="flex items-center mb-6 text-xl font-semibold font-display text-gray-50 lg:mb-0 dark:text-white"
           >
             <img
               className="h-8 mr-3 w-auto"

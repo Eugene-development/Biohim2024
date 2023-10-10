@@ -7,7 +7,7 @@ export default () => {
         <img
           src="https://mos-522755.oml.ru/d/himiya.png"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
+          className="absolute inset-0 -z-10 h-[70rem] w-full object-cover"
         />
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 "
@@ -23,9 +23,9 @@ export default () => {
         </div>
         <div className=" max-w-4xl px-3 sm:px-10 cm:px-12 py-32 sm:py-24 lg:py-56 -mt-24">
           <div className="p-3  text-left ">
-			<p className="text-gray-50 text-4xl  ">оптом и в розницу</p>
-            <h1 className="text-3xl mt-4 font-bold font-display tracking-tight text-white sm:text-7xl">
-                <span className="font-extrabold tracking-wider">ПЕРЕКИСЬ</span> <span className="font-extrabold tracking-wider">ВОДОРОДА</span>
+			<p className="text-gray-50 text-4xl">оптом и в розницу</p>
+            <h1 className="text-3xl mt-4 font-bold font-display tracking-tight text-white sm:text-6xl">
+                <span className="font-extrabold tracking-wider">ПЕРЕКИСЬ</span> <span className="font-extrabold tracking-wider sm:text-7xl">ВОДОРОДА</span><br/> H<span className="text-2xl">2</span>O<span className="text-2xl">2</span>
             </h1>
             <p className="max-w-2xl mt-6 text-base sm:text-lg leading-8 text-gray-50">
               "Техническая", "Медицинская", "Асептическая", "Особо Чистая" <br/> перекись водорода в канистрах 10л, 30л и
@@ -261,7 +261,7 @@ export default () => {
 
            <div className="hidden sm:mb-8 sm:flex sm:justify-left mt-12">
             <div className="relative rounded-full px-6 py-2 text-base leading-6 text-gray-50 ring-1 ring-white/10 hover:ring-white/20">
-              <span>Хотите узнать больше о нашей продукции? </span><br/>
+              <span className="text-sm">Хотите узнать больше о нашей продукции? </span><br/>
               <Link href="/information" className="font-semibold text-lime-400">
                 <span className=" inset-0  " aria-hidden="true" />
                 Подробнее{" "}
