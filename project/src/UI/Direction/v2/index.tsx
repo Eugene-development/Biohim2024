@@ -27,9 +27,7 @@ export default function index() {
                 Медицинская перекись водорода
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Over the past year, Volosoft has undergone many changes! After
-                months of preparation and some hard work, we moved to our new
-                office.
+                Применяется в медицинской, фармацевтической, косметической, пищевой и в других видах промышленности.
               </p>
             </div>
           </div>
@@ -47,9 +45,7 @@ export default function index() {
                 Техническая перекись водорода
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Over the past year, Volosoft has undergone many changes! After
-                months of preparation and some hard work, we moved to our new
-                office.
+                Применяется в химической, текстильной, целлюлозно-бумажной, деревообрабатывающей и в других видах промышленности. 
               </p>
             </div>
           </div>
@@ -67,9 +63,7 @@ export default function index() {
                 Асептическая перекись водорода
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Over the past year, Volosoft has undergone many changes! After
-                months of preparation and some hard work, we moved to our new
-                office.
+                Пероксид водорода асептический является технологическим вспомогательным средством широкого применения.
               </p>
             </div>
           </div>
@@ -87,9 +81,7 @@ export default function index() {
                 Особо чистая перекись
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Over the past year, Volosoft has undergone many changes! After
-                months of preparation and some hard work, we moved to our new
-                office.
+                Применяется в технических целях в радиоэлектронной аппаратуре. Используется в полупроводниках, космической технике и приборах.
               </p>
             </div>
           </div>
