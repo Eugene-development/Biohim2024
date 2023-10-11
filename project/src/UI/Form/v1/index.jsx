@@ -110,7 +110,7 @@ export default () => {
                                 htmlFor="name"
                                 className="block text-sm font-medium leading-6 text-gray-900"
                               >
-                                Имя
+                                Имя{" "}
                                 <sup className="text-red-700 w-4 h-4">
                                   &#x2736;
                                 </sup>
@@ -214,7 +214,7 @@ export default () => {
                                 htmlFor="volume"
                                 className="block text-sm font-medium leading-6 text-gray-900"
                               >
-                                Необходимый объём
+                                Необходимый объём{" "}
                                 <sup className="text-red-700 w-4 h-4">
                                   &#x2736;
                                 </sup>
