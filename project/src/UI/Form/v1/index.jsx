@@ -8,7 +8,7 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useFormsStore } from "@/store/forms";
 const { visibleFormConsultation } = useFormsStore;
 
-import { send } from "@/serverActions/sendFormConsultation";
+import { send } from "@/serverActions/sendFormRequestPrice";
 
 export default () => {
   const { push } = useRouter();
@@ -22,13 +22,13 @@ export default () => {
 
   const [container, setContainer] = useState('');
   const [brand, setBrand] = useState('');
+  const [volume, setVolume] = useState('');
 
   const handleSendFormConsultation = (e) => {
     e.preventDefault();
 
-    const data = { name, phone,  email, comment, container, brand };
-    console.log(data);
-    // send(data);
+    const data = { name, phone,  email, comment, container, brand, volume };
+    send(data);
 
     setName("");
     setPhone("");
@@ -36,6 +36,7 @@ export default () => {
     setComment("");
     setContainer("");
     setBrand("");
+    setVolume("");
 
     push("/spasibo");
   };
@@ -208,6 +209,27 @@ export default () => {
                                 </select>
                               </div>
                             </div>
+                            <div>
+                              <label
+                                htmlFor="volume"
+                                className="block text-sm font-medium leading-6 text-gray-900"
+                              >
+                                Необходимый объём
+                                <sup className="text-red-700 w-4 h-4">
+                                  &#x2736;
+                                </sup>
+                              </label>
+                              <div className="mt-2">
+                                <input
+                                  onChange={(e) => setVolume(e.target.value)}
+                                  type="text"
+                                  name="volume"
+                                  id="volume"
+                                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:text-sm sm:leading-6"
+                                />
+                              </div>
+                            </div>
+
                             <div>
                               <label
                                 htmlFor="description"
