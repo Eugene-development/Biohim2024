@@ -1,6 +1,10 @@
+"use client"
 import Link from "next/link";
+import { useFormsStore } from "@/store/forms";
+const { visibleFormConsultation } = useFormsStore;
 
 export default () => {
+	const { openVisibleFormConsultation  } = visibleFormConsultation();
   return (
     <div className="">
       <div className="relative isolate overflow-hidden py-24">
@@ -33,12 +37,12 @@ export default () => {
               доставкой или самовывозом.
             </p>
             <div className="mt-10 flex items-center justify-left gap-x-6">
-              <a
-                href="#"
+              <button 
+                onClick={openVisibleFormConsultation}
                 className="rounded-md bg-lime-500 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-400"
               >
                 Запросить цену
-              </a>
+              </button>
             </div>
 {/* <div className=" py-12">
 		<form
