@@ -1,5 +1,10 @@
 import { FadeIn } from "@/func/motion/FadeIn";
 import { Information } from "@/UI";
+export const metadata = {
+  title: "Компания Биохим | Информация о продукции",
+  description:
+    "Статьи о перекиси водорода. Производство и применение в различных отраслях.",
+};
 
 const posts = [
   {

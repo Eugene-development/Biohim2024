@@ -1,5 +1,12 @@
 import { DescriptionProduct } from "@/UI";
 import { FadeIn } from "@/func/motion/FadeIn";
+
+export const metadata = {
+  title: "Компания Биохим |",
+  description:
+    "",
+};
+
 const post = `
       <article className="mx-auto w-full max-w-4xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert prose">
         <header className="mb-4 lg:mb-6 not-format">

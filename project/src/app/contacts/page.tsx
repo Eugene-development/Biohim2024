@@ -1,5 +1,10 @@
 import { Contacts, Map } from "@/UI";
 import { FadeIn } from "@/func/motion/FadeIn";
+export const metadata = {
+  title: "Компания Биохим | Контакты",
+  description:
+    "Связь с нашими специалистами по всем интересующим Вас вопросам",
+};
 
 export default function page() {
   return (

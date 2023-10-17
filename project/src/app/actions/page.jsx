@@ -1,5 +1,10 @@
 import { Actions } from "@/UI";
 import { FadeIn } from "@/func/motion/FadeIn";
+export const metadata = {
+  title: "Компания Биохим | Акции",
+  description:
+    "Специальные предложения от нашей компании",
+};
 
 export default function page() {
   return (
