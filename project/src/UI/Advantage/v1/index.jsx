@@ -9,8 +9,7 @@ export default function index() {
             Наши преимущества
           </h2>
           <p className="font-light text-center text-gray-500 text-sm sm:text-xl dark:text-gray-400">
-            We use an agile approach to test assumptions and connect with the
-            needs of your audience early and often.
+            Мы предлагаем перекись водорода, цена которой выгодно отличается от конкурентов.
           </p>
         </div>
 

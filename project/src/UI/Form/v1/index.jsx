@@ -71,10 +71,10 @@ export default () => {
                 leaveFrom="translate-x-0 opacity-100"
                 leaveTo="translate-x-full opacity-0"
               >
-                <Dialog.Panel className="pointer-events-auto w-screen max-w-xl">
+                <Dialog.Panel className="pointer-events-auto w-screen max-w-3xl mr-[32rem]">
                   <form
                     onSubmit={handleSendFormConsultation}
-                    className="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl"
+                    className="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl "
                   >
                     <div className="h-0 flex-1 overflow-y-auto">
                       <div className="bg-gray-800 px-4 py-6 sm:px-6">
@@ -310,19 +310,15 @@ export default () => {
                               </div>
                             </fieldset> */}
                           </div>
-                          <div className="pb-6 pt-4">
+                          {/* <div className="pb-6 pt-4">
                             <div className="mt-4 flex text-sm">
                               <p className="group inline-flex items-center text-gray-500 hover:text-gray-900">
-                                {/* <QuestionMarkCircleIcon
-                                  className="h-5 w-5 text-gray-400 group-hover:text-gray-500"
-                                  aria-hidden="true"
-                                /> */}
                                 <span className="ml-2">
                                   После отправки формы с Вами свяжется наш специалист.
                                 </span>
                               </p>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
