@@ -15,7 +15,7 @@ export default function index() {
         <div className="grid gap-24 grid-cols-1 xl:grid-cols-2">
           <div>
             <img
-              className="z-30 -mb-16 rounded-2xl h-96 w-[40rem]"
+              className="z-30 -mb-16 rounded-2xl h-72 sm:h-96 w-[40rem]"
               src="https://mos-522755.oml.ru/thumb/2/iisuo84kHfT_O1QvSSNxvg/1920r1080/d/55291969_2.jpg"
               alt="продукция"
             />
@@ -40,7 +40,7 @@ export default function index() {
           </div>
           <div>
             <img
-              className="z-30 -mb-16 rounded-2xl h-96 w-[40rem]"
+              className="z-30 -mb-16 rounded-2xl h-72 sm:h-96 w-[40rem]"
               src="https://mos-522755.oml.ru/thumb/2/AOtZA8mzrzOBWtHs6A-7iA/1920r1080/d/55291970_2.jpg"
               alt="продукция"
             />
@@ -65,7 +65,7 @@ export default function index() {
           </div>
           <div>
             <img
-              className="z-30 -mb-16 rounded-2xl h-96 w-[40rem]"
+              className="z-30 -mb-16 rounded-2xl h-72 sm:h-96 w-[40rem]"
               src="https://mos-522755.oml.ru/thumb/2/mtxGxsC-SeFbGG7y5ILjCQ/1920r1080/d/55291974_2.jpg"
               alt="продукция"
             />
@@ -91,7 +91,7 @@ export default function index() {
           </div>
           <div>
             <img
-              className="z-30 -mb-16 rounded-2xl h-96 w-[40rem]"
+              className="z-30 -mb-16 rounded-2xl h-72 sm:h-96 w-[40rem]"
               src="https://www.funnyart.club/uploads/posts/2022-12/1671492904_www-funnyart-club-p-khimicheskaya-laboratoriya-kartinki-foni-38.jpg"
               alt="продукция"
             />
