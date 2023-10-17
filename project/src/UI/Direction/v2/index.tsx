@@ -31,7 +31,7 @@ export default function index() {
                 пищевой и в других видах промышленности.
               </p>
               <Link
-                href="#"
+                href="/information/1"
                 className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Подробнее

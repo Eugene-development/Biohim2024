@@ -24,13 +24,13 @@ export default function index() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Компания Биохим</span>
             <img
-              className="h-12 sm:h-16 w-auto"
+              className="h-12 sm:h-20 w-auto"
               src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
               alt="логотип"
             />
           </Link>
           <div className="hidden xl:block">
-            <p className="ml-4 mt-2 font-display font-bold text-gray-50 text-5xl">
+            <p className="ml-4 mt-4 font-display font-bold text-gray-50 text-5xl">
               {" "}
               Компания &#171;БИОХИМ&#187;
             </p>
@@ -93,7 +93,7 @@ export default function index() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-base font-semibold leading-6 text-white transition ease-in-out hover:scale-125"
+              className="text-base font-semibold font-display leading-6 text-white transition ease-in-out hover:scale-125"
             >
               {item.name}
             </Link>
