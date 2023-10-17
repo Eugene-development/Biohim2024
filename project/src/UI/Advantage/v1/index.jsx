@@ -19,7 +19,7 @@ export default function index() {
           alt="продукция"
         />
 
-        <div className="px-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="px-4 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="mx-auto bg-lime-300 p-3 h-24 w-24 rounded-full flex items-center">
               
