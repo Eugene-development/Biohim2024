@@ -61,7 +61,7 @@ export default () => {
 
         <div className="fixed inset-0 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
-            <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
+            <div className="pointer-events-none fixed inset-y-0 inset-0 flex max-w-full">
               <Transition.Child
                 as={Fragment}
                 enter="transform transition ease-in-out duration-500 sm:duration-700"
@@ -71,7 +71,7 @@ export default () => {
                 leaveFrom="translate-x-0 opacity-100"
                 leaveTo="translate-x-full opacity-0"
               >
-                <Dialog.Panel className="pointer-events-auto w-screen max-w-3xl mr-[32rem]">
+                <Dialog.Panel className="pointer-events-auto  max-w-3xl mx-auto">
                   <form
                     onSubmit={handleSendFormConsultation}
                     className="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl "
@@ -108,7 +108,7 @@ export default () => {
                             <div>
                               <label
                                 htmlFor="name"
-                                className="block text-sm font-medium leading-6 text-gray-900"
+                                className="block text-base font-medium leading-6 text-gray-900"
                               >
                                 Имя{" "}
                                 <sup className="text-red-700 w-4 h-4">
@@ -129,7 +129,7 @@ export default () => {
                             <div>
                               <label
                                 htmlFor="email"
-                                className="block text-sm font-medium leading-6 text-gray-900"
+                                className="block text-base font-medium leading-6 text-gray-900"
                               >
                                 Почта{" "}
                                 <sup className="text-red-700 w-4 h-4">
@@ -151,7 +151,7 @@ export default () => {
                             <div>
                               <label
                                 htmlFor="phone"
-                                className="block text-sm font-medium leading-6 text-gray-900"
+                                className="block text-base font-medium leading-6 text-gray-900"
                               >
                                 Телефон{" "} (необязательно)
                                 
@@ -168,7 +168,7 @@ export default () => {
                               </div>
                             </div>
                             <div className="sm:col-span-3">
-                              <label htmlFor="country" className="block text-sm font-medium leading-6 text-gray-900">
+                              <label htmlFor="country" className="block text-base font-medium leading-6 text-gray-900">
                                 Выберите марку
                               </label>
                               <div className="mt-2">
@@ -181,16 +181,20 @@ export default () => {
                                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:max-w-xs sm:text-sm sm:leading-6"
                                 >                                
                                   <option value="" disabled>-</option>
-                                  <option value="Медицинская - 37%">Медицинская - 37%</option>
-                                  <option value="Марка А - 37%">Марка А - 37%</option>
-                                  <option value="Марка Б - 37%">Марка Б - 37%</option>
-                                  <option value="Марка Б - 51%">Марка Б - 51%</option>
-                                  <option value="Марка В - 60%">Марка В - 60%</option>
+                                  <option value="Медицинская 30-40%">Медицинская 30-40%</option>
+                                  <option value="Марка А 25-40%">Марка А 25-40%</option>
+                                  {/* <option value="Марка Б - 37%">Марка Б - 37%</option> */}
+                                  <option value="Марка Б 50-52%">Марка Б 50-52%</option>
+                                  <option value="Марка В - 58-60%">Марка В 58-60%</option>
+                                  <option value="Марка Пуроксид Асептик 35-36%">Марка Пуроксид Асептик 35-36%</option>
+                                  <option value="Марка Пуроксид Асептик 35-36% С">Марка Пуроксид Асептик С 35-36%</option>
+                                  <option value="Марка ОСЧ 33-4 30-35%">Марка ОСЧ 33-4 30-35%</option>
+                                  <option value="Марка ОСЧ 8-4 30-35%">Марка ОСЧ 8-4 30-35%</option>
                                 </select>
                               </div>
                             </div>
                             <div className="sm:col-span-3">
-                              <label htmlFor="country" className="block text-sm font-medium leading-6 text-gray-900">
+                              <label htmlFor="country" className="block text-base font-medium leading-6 text-gray-900">
                                 Выберите тару
                               </label>
                               <div className="mt-2">
@@ -212,7 +216,7 @@ export default () => {
                             <div>
                               <label
                                 htmlFor="volume"
-                                className="block text-sm font-medium leading-6 text-gray-900"
+                                className="block text-base font-medium leading-6 text-gray-900"
                               >
                                 Необходимый объём{" "}
                                 <sup className="text-red-700 w-4 h-4">
@@ -233,7 +237,7 @@ export default () => {
                             <div>
                               <label
                                 htmlFor="description"
-                                className="block text-sm font-medium leading-6 text-gray-900"
+                                className="block text-base font-medium leading-6 text-gray-900"
                               >
                                 Ваш комментарий
                               </label>
