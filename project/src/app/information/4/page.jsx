@@ -130,7 +130,6 @@ const post = `
 export default function page() {
   return (
     <div className="bg-gray-900">
-
       <div className="relative isolate overflow-hidden ">
         {/* <img
           src="https://mos-522755.oml.ru/d/himiya.png"
