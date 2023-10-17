@@ -100,7 +100,7 @@ export default function index() {
                 Продукция
               </span>
               <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Особо чистая перекись
+                Особо чистая перекись (ОСЧ)
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
                 Применяется в технических целях в радиоэлектронной аппаратуре.
