@@ -14,16 +14,24 @@ export default () => {
           <div className="mx-auto px-8 max-w-3xl lg:mx-0">
             <h1 className="mt-4  sm:mt-20 font-bold font-display  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
               {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
-<p className="p-1  mt-2 font-display font-bold text-gray-800 text-4xl"> Компания <span className="text-7xl font-extrabold">&#171;БИОХИМ&#187;</span> </p>            </h1>
+              <p className="p-1  mt-2 font-display font-bold text-gray-800 text-4xl">
+                {" "}
+                Компания{" "}
+                <span className="text-7xl font-extrabold">
+                  &#171;БИОХИМ&#187;
+                </span>{" "}
+              </p>{" "}
+            </h1>
             <p className="mt-6 sm:mt-12 text-base leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
-              нашей гордостью. Мы поставляем все сорта перекиси водорода высочайшего качества, и наша продукция отвечает всем
-              необходимым стандартам безопасности и качества. Мы понимаем
-              важность надежности в бизнесе, и всегда гарантируем, что наши
-              клиенты получат свои заказы вовремя и в надлежащем состоянии.
-              Наша команда профессионалов всегда готова предоставить вам
-              необходимую информацию и консультации о наших продуктах.
+              нашей гордостью. Мы поставляем все сорта перекиси водорода
+              высочайшего качества, и наша продукция отвечает всем необходимым
+              стандартам безопасности и качества. Мы понимаем важность
+              надежности в бизнесе, и всегда гарантируем, что наши клиенты
+              получат свои заказы вовремя и в надлежащем состоянии. Наша команда
+              профессионалов всегда готова предоставить вам необходимую
+              информацию и консультации о наших продуктах.
             </p>
             {/* <p className="mt-2 text-base leading-8 text-gray-600">
               Наша команда профессионалов всегда готова предоставить вам
@@ -55,7 +63,10 @@ export default () => {
           <div className="hidden md:block">
             <dl className=" mt-12 lg:-mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-1 lg:grid-cols-3 shadow-2xl">
               {stats.map((stat) => (
-                <div key={stat.id} className=" flex flex-col bg-indigo-950 px-8 py-6">
+                <div
+                  key={stat.id}
+                  className=" flex flex-col bg-indigo-950 px-8 py-6"
+                >
                   <dd className=" order-first text-4xl font-semibold tracking-tight text-lime-200">
                     {stat.value}
                   </dd>

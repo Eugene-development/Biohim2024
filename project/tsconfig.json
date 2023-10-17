@@ -22,6 +22,14 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/UI/Hero/v1/index.jsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/UI/Hero/v1/index.jsx",
+    "src/UI/Products/v1/index.jsx",
+    "src/UI/Actions/v1/index.jsx"
+  ],
   "exclude": ["node_modules"]
 }

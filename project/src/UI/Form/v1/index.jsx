@@ -20,14 +20,14 @@ export default () => {
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
 
-  const [container, setContainer] = useState('');
-  const [brand, setBrand] = useState('');
-  const [volume, setVolume] = useState('');
+  const [container, setContainer] = useState("");
+  const [brand, setBrand] = useState("");
+  const [volume, setVolume] = useState("");
 
   const handleSendFormConsultation = (e) => {
     e.preventDefault();
 
-    const data = { name, phone,  email, comment, container, brand, volume };
+    const data = { name, phone, email, comment, container, brand, volume };
     send(data);
 
     setName("");
@@ -97,8 +97,9 @@ export default () => {
                           </div>
                         </div>
                         <div className="mt-1">
-                          <p className="text-sm text-cyan-100">
-                            Цена будет актуальна на день получения запроса в соответствии с текущим курсом.
+                          <p className="text-sm text-cyan-50">
+                            Цена будет актуальна на день получения ответа в
+                            соответствии с текущим курсом
                           </p>
                         </div>
                       </div>
@@ -153,12 +154,10 @@ export default () => {
                                 htmlFor="phone"
                                 className="block text-base font-medium leading-6 text-gray-900"
                               >
-                                Телефон{" "} (необязательно)
-                                
+                                Телефон (необязательно)
                               </label>
                               <div className="mt-2">
                                 <input
-                                  
                                   onChange={(e) => setPhone(e.target.value)}
                                   type="text"
                                   name="phone"
@@ -168,7 +167,10 @@ export default () => {
                               </div>
                             </div>
                             <div className="sm:col-span-3">
-                              <label htmlFor="country" className="block text-base font-medium leading-6 text-gray-900">
+                              <label
+                                htmlFor="country"
+                                className="block text-base font-medium leading-6 text-gray-900"
+                              >
                                 Выберите марку
                               </label>
                               <div className="mt-2">
@@ -179,22 +181,43 @@ export default () => {
                                   name="country"
                                   autoComplete="country-name"
                                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:max-w-xs sm:text-sm sm:leading-6"
-                                >                                
-                                  <option value="" disabled>-</option>
-                                  <option value="Медицинская 30-40%">Медицинская 30-40%</option>
-                                  <option value="Марка А 25-40%">Марка А 25-40%</option>
+                                >
+                                  <option value="" disabled>
+                                    -
+                                  </option>
+                                  <option value="Медицинская 30-40%">
+                                    Медицинская 30-40%
+                                  </option>
+                                  <option value="Марка А 25-40%">
+                                    Марка А 25-40%
+                                  </option>
                                   {/* <option value="Марка Б - 37%">Марка Б - 37%</option> */}
-                                  <option value="Марка Б 50-52%">Марка Б 50-52%</option>
-                                  <option value="Марка В - 58-60%">Марка В 58-60%</option>
-                                  <option value="Марка Пуроксид Асептик 35-36%">Марка Пуроксид Асептик 35-36%</option>
-                                  <option value="Марка Пуроксид Асептик 35-36% С">Марка Пуроксид Асептик С 35-36%</option>
-                                  <option value="Марка ОСЧ 33-4 30-35%">Марка ОСЧ 33-4 30-35%</option>
-                                  <option value="Марка ОСЧ 8-4 30-35%">Марка ОСЧ 8-4 30-35%</option>
+                                  <option value="Марка Б 50-52%">
+                                    Марка Б 50-52%
+                                  </option>
+                                  <option value="Марка В - 58-60%">
+                                    Марка В 58-60%
+                                  </option>
+                                  <option value="Марка Пуроксид Асептик 35-36%">
+                                    Марка Пуроксид Асептик 35-36%
+                                  </option>
+                                  <option value="Марка Пуроксид Асептик 35-36% С">
+                                    Марка Пуроксид Асептик С 35-36%
+                                  </option>
+                                  <option value="Марка ОСЧ 33-4 30-35%">
+                                    Марка ОСЧ 33-4 30-35%
+                                  </option>
+                                  <option value="Марка ОСЧ 8-4 30-35%">
+                                    Марка ОСЧ 8-4 30-35%
+                                  </option>
                                 </select>
                               </div>
                             </div>
                             <div className="sm:col-span-3">
-                              <label htmlFor="country" className="block text-base font-medium leading-6 text-gray-900">
+                              <label
+                                htmlFor="country"
+                                className="block text-base font-medium leading-6 text-gray-900"
+                              >
                                 Выберите тару
                               </label>
                               <div className="mt-2">
@@ -206,9 +229,15 @@ export default () => {
                                   autoComplete="country-name"
                                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:max-w-xs sm:text-sm sm:leading-6"
                                 >
-                                  <option value="" disabled>-</option>
-                                  <option value="Канистра 10л">Канистра 10л</option>
-                                  <option value="Канистра 30л">Канистра 30л</option>
+                                  <option value="" disabled>
+                                    -
+                                  </option>
+                                  <option value="Канистра 10л">
+                                    Канистра 10л
+                                  </option>
+                                  <option value="Канистра 30л">
+                                    Канистра 30л
+                                  </option>
                                   <option value="Еврокуб">Еврокуб</option>
                                 </select>
                               </div>
@@ -246,7 +275,7 @@ export default () => {
                                   onChange={(e) => setComment(e.target.value)}
                                   id="description"
                                   name="description"
-                                  rows={4}
+                                  rows={3}
                                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:text-sm sm:leading-6"
                                   defaultValue={""}
                                 />

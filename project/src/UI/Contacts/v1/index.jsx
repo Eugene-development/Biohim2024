@@ -3,7 +3,7 @@ import {
   EnvelopeIcon,
   PhoneIcon,
   NewspaperIcon,
-  BuildingOfficeIcon
+  BuildingOfficeIcon,
 } from "@heroicons/react/20/solid";
 
 const cards = [

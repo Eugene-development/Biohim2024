@@ -93,34 +93,22 @@ export default () => {
 
             <ul className="space-y-3 text-gray-50 dark:text-gray-400">
               <li>
-                <p
-                  
-                  className="mb-3 text-gray-50 dark:text-gray-400"
-                >
+                <p className="mb-3 text-gray-50 dark:text-gray-400">
                   ИП Попугаев Илья Игоревич
                 </p>
               </li>
               <li>
-                <p
-                  
-                  className="mb-3 text-gray-50 dark:text-gray-400"
-                >
+                <p className="mb-3 text-gray-50 dark:text-gray-400">
                   ОГРНИП 323861700054415
                 </p>
               </li>
               <li>
-                <p
-                  
-                  className="mb-3 text-gray-50 dark:text-gray-400"
-                >
+                <p className="mb-3 text-gray-50 dark:text-gray-400">
                   ИНН 861903101837
                 </p>
               </li>
               <li>
-                <p
-                  
-                  className="mb-3 text-gray-50 dark:text-gray-400"
-                >
+                <p className="mb-3 text-gray-50 dark:text-gray-400">
                   ОКВЭД 46.75
                 </p>
               </li>

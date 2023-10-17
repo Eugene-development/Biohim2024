@@ -25,7 +25,7 @@ export default function page() {
         <div className=" bg-white mt-24 sm:mt-48">
           <FadeIn>
             <Contacts />
-            <Map/>
+            <Map />
           </FadeIn>
         </div>
         <div

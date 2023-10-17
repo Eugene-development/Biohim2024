@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { useFormsStore } from "@/store/forms";
 const { visibleFormConsultation } = useFormsStore;
 
 export default () => {
-	const { openVisibleFormConsultation  } = visibleFormConsultation();
+  const { openVisibleFormConsultation } = visibleFormConsultation();
   return (
     <div className="">
       <div className="relative isolate overflow-hidden py-24">
@@ -27,24 +27,30 @@ export default () => {
         </div>
         <div className=" max-w-4xl px-3 sm:px-10 cm:px-12 py-32 sm:py-24 lg:py-56 -mt-24">
           <div className="p-3  text-left ">
-			<p className="text-gray-50 text-4xl">оптом и в розницу</p>
+            <p className="text-gray-50 text-4xl">оптом и в розницу</p>
             <h1 className="text-3xl mt-4 font-bold font-display tracking-tight text-white sm:text-6xl">
-                <span className="font-extrabold tracking-wider">ПЕРЕКИСЬ</span> <span className="font-extrabold tracking-wider sm:text-7xl">ВОДОРОДА</span><br/> H<span className="text-2xl">2</span>O<span className="text-2xl">2</span>
+              <span className="font-extrabold tracking-wider">ПЕРЕКИСЬ</span>{" "}
+              <span className="font-extrabold tracking-wider sm:text-7xl">
+                ВОДОРОДА
+              </span>
+              <br /> H<span className="text-2xl">2</span>O
+              <span className="text-2xl">2</span>
             </h1>
             <p className="max-w-2xl mt-6 text-base sm:text-lg leading-8 text-gray-50">
-              "Техническая", "Медицинская", "Асептическая", "Особо Чистая" <br/> перекись водорода в канистрах 10л, 30л и
-              в кубовых ёмкостях по оптовым ценам от заводов производителей с
-              доставкой или самовывозом.
+              "Техническая", "Медицинская", "Асептическая", "Особо Чистая"{" "}
+              <br /> перекись водорода в канистрах 10л, 30л и в кубовых ёмкостях
+              по оптовым ценам от заводов производителей с доставкой или
+              самовывозом.
             </p>
             <div className="mt-10 flex items-center justify-left gap-x-6">
-              <button 
+              <button
                 onClick={openVisibleFormConsultation}
-                className="rounded-md bg-lime-500 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-400"
+                className="rounded-md bg-lime-600 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-400"
               >
-                Запросить цену
+                Запросить актуальную цену
               </button>
             </div>
-{/* <div className=" py-12">
+            {/* <div className=" py-12">
 		<form
 			
 			className="sm:mx-auto sm:max-w-xl lg:mx-0"
@@ -263,19 +269,24 @@ export default () => {
 	</div>
  */}
 
-           <div className="hidden sm:mb-8 sm:flex sm:justify-left mt-12">
-            <div className="relative rounded-full px-6 py-2 text-base leading-6 text-gray-50 ring-1 ring-white/10 hover:ring-white/20">
-              <span className="text-sm">Хотите узнать больше о нашей продукции? </span><br/>
-              <Link href="/information" className="font-semibold text-lime-400">
-                <span className=" inset-0  " aria-hidden="true" />
-                Подробнее{" "}
-                <span aria-hidden="true" className="ml-1">
-                  &rarr;
+            <div className="hidden sm:mb-8 sm:flex sm:justify-left mt-12">
+              <div className="relative rounded-full px-6 py-2 text-base leading-6 text-gray-50 ring-1 ring-white/10 hover:ring-white/20">
+                <span className="text-sm">
+                  Хотите узнать больше о нашей продукции?{" "}
                 </span>
-              </Link>
+                <br />
+                <Link
+                  href="/information"
+                  className="font-semibold text-lime-400"
+                >
+                  <span className=" inset-0  " aria-hidden="true" />
+                  Подробнее{" "}
+                  <span aria-hidden="true" className="ml-1">
+                    &rarr;
+                  </span>
+                </Link>
+              </div>
             </div>
-          </div>
-
           </div>
         </div>
         <div

@@ -30,7 +30,10 @@ export default function index() {
             />
           </Link>
           <div className="hidden xl:block">
-            <p className="p-1 ml-3 mt-2 font-display font-bold text-gray-50 text-5xl"> Компания &#171;БИОХИМ&#187;</p>
+            <p className="ml-4 mt-2 font-display font-bold text-gray-50 text-5xl">
+              {" "}
+              Компания &#171;БИОХИМ&#187;
+            </p>
             {/* <p className="px-1 py-1 text-gray-50 text-xs sm:text-sm">Перекись водорода</p> */}
           </div>
         </div>
@@ -52,7 +55,9 @@ export default function index() {
             </svg>
           </div> */}
           <div>
-            <p className="ml-3 my-2 bp-1 text-lg text-lime-300">biohim.org@yandex.ru</p>
+            <p className="ml-3 my-2 bp-1 text-lg text-lime-300">
+              biohim.org@yandex.ru
+            </p>
             <a
               href="tel:+79302765650"
               className="ml-3 mt-1 text-3xl font-semibold leading-6 text-white"
