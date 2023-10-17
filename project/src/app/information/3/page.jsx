@@ -4,8 +4,7 @@ const post = `
       <article className="mx-auto w-full max-w-4xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert prose">
         <header className="mb-4 lg:mb-6 not-format">
           <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
-            Пуроксид Асептик: Надежное решение для асептической обработки в
-            пищевой промышленности
+            Пуроксид Асептик. Цена и применение.
           </h1>
         </header>
         <p>
