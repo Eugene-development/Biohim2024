@@ -2,9 +2,9 @@ import { DescriptionProduct } from "@/UI";
 import { FadeIn } from "@/func/motion/FadeIn";
 
 export const metadata = {
-  title: "Компания Биохим |",
+  title: "Компания Биохим | Особо Чистая Перекись (ОСЧ)",
   description:
-    "",
+    "Информация об особо чистой перекиси (ОСЧ)",
 };
 
     const post = `
