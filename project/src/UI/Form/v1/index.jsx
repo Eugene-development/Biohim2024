@@ -185,30 +185,29 @@ export default () => {
                                   <option value="" disabled>
                                     -
                                   </option>
-                                  <option value="Медицинская 30-40%">
-                                    Медицинская 30-40%
+                                  <option value="Медицинская 37%">
+                                    Медицинская 37%
                                   </option>
-                                  <option value="Марка А 25-40%">
-                                    Марка А 25-40%
+                                  <option value="Марка А 37%">
+                                    Марка А-37%
                                   </option>
-                                  {/* <option value="Марка Б - 37%">Марка Б - 37%</option> */}
-                                  <option value="Марка Б 50-52%">
-                                    Марка Б 50-52%
+                                  <option value="Марка Б 51%">
+                                    Марка Б 51%
                                   </option>
-                                  <option value="Марка В - 58-60%">
-                                    Марка В 58-60%
+                                  <option value="Марка В 60%">
+                                    Марка В 60%
                                   </option>
-                                  <option value="Марка Пуроксид Асептик 35-36%">
-                                    Марка Пуроксид Асептик 35-36%
+                                  <option value="Пуроксид Асептик">
+                                    Пуроксид Асептик
                                   </option>
-                                  <option value="Марка Пуроксид Асептик 35-36% С">
-                                    Марка Пуроксид Асептик С 35-36%
+                                  <option value="Пуроксид Асептик С">
+                                    Пуроксид Асептик С
                                   </option>
-                                  <option value="Марка ОСЧ 33-4 30-35%">
-                                    Марка ОСЧ 33-4 30-35%
+                                  <option value="ОСЧ 33-4">
+                                    ОСЧ 33-4
                                   </option>
-                                  <option value="Марка ОСЧ 8-4 30-35%">
-                                    Марка ОСЧ 8-4 30-35%
+                                  <option value="ОСЧ 8-4">
+                                    ОСЧ 8-4
                                   </option>
                                 </select>
                               </div>
@@ -263,7 +262,7 @@ export default () => {
                               </div>
                             </div>
 
-                            <div>
+                            {/* <div>
                               <label
                                 htmlFor="description"
                                 className="block text-base font-medium leading-6 text-gray-900"
@@ -280,7 +279,7 @@ export default () => {
                                   defaultValue={""}
                                 />
                               </div>
-                            </div>
+                            </div> */}
                             {/* <fieldset>
                               <legend className="text-sm font-medium leading-6 text-gray-900">
                                 У вас есть готовый проект?{" "}

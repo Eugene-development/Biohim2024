@@ -10,7 +10,7 @@ export default () => {
   return (
     <div className="relative bg-white">
       <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-        <div className="z-50 px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
+        <div className="z-50 px-6 pb-12 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
           <div className="mx-auto px-4 max-w-3xl lg:mx-0">
             <h1 className="mt-4  sm:mt-20 font-bold font-display  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
               {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
@@ -50,7 +50,7 @@ export default () => {
               важность надежности в бизнесе, и всегда гарантируем, что наши
               клиенты получат свои заказы вовремя и в надлежащем состоянии.
             </p> */}
-            <div className="mt-24 flex items-center gap-x-6">
+            <div className="mt-8 md:mt-24 flex items-center gap-x-6">
               <Link
                 href="/contacts"
                 className="rounded-full bg-lime-500 px-10 py-3 font-semibold text-white shadow-sm hover:bg-indigo-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
