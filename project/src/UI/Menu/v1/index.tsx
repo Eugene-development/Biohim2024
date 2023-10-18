@@ -24,36 +24,19 @@ export default function index() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Компания Биохим</span>
             <img
-              className="h-12 sm:h-20 w-auto"
+              className="h-6 sm:h-20 w-auto"
               src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
               alt="логотип"
             />
           </Link>
-          <div className="hidden xl:block">
-            <p className="ml-4 mt-4 font-display font-bold text-gray-50 text-5xl">
+            <div className="flex ml-4  sm:mt-4 font-display font-bold text-gray-50 text-lg sm:text-5xl">
               {" "}
-              Компания &#171;БИОХИМ&#187;
-            </p>
+              <p className="hidden xl:block">Компания&nbsp;</p> &#171;БИОХИМ&#187;
+            </div>
             {/* <p className="px-1 py-1 text-gray-50 text-xs sm:text-sm">Перекись водорода</p> */}
-          </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          {/* <div className=" p-3 mr-2 rounded-full flex items-center">
-            <svg
-              className="h-5 w-5 sm:h-12 sm:w-12 text-gray-50"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div> */}
+          
           <div>
             <p className="ml-3 my-2 bp-1 text-lg text-lime-300">
               biohim.org@yandex.ru
@@ -118,6 +101,10 @@ export default function index() {
                 alt="логотип"
               />
             </Link>
+            {/* <p className="ml-4 mt-4 font-display font-bold text-gray-50 text-5xl">
+              {" "}
+              Компания &#171;БИОХИМ&#187;
+            </p> */}
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-400"
