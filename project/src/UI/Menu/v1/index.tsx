@@ -93,7 +93,7 @@ export default function index() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-base font-semibold font-display leading-6 text-white transition ease-in-out hover:scale-125"
+              className="text-base  font-display leading-6 text-white transition ease-in-out hover:scale-125"
             >
               {item.name}
             </Link>

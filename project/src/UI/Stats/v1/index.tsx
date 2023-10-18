@@ -9,20 +9,20 @@ const stats = [
 export default () => {
   return (
     <div className="relative bg-white">
-      <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-16">
+      <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="z-50 px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
-          <div className="mx-auto px-8 max-w-3xl lg:mx-0">
+          <div className="mx-auto px-4 max-w-3xl lg:mx-0">
             <h1 className="mt-4  sm:mt-20 font-bold font-display  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
               {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
-              <p className="p-1  mt-2 font-display font-bold text-gray-800 text-4xl">
+              <p className="p-1  mt-2 font-display font-bold text-gray-800 text-xl sm:text-4xl">
                 {" "}
-                Компания{" "}
-                <span className="text-7xl font-extrabold">
+                Компания{" "}<br/>
+                <span className="text-4xl sm:text-7xl font-extrabold">
                   &#171;БИОХИМ&#187;
                 </span>{" "}
               </p>{" "}
             </h1>
-            <p className="mt-6 sm:mt-12 text-base leading-8 text-gray-600">
+            <p className="mt-6 sm:mt-12 text-base leading-6 sm:leading-8 text-gray-600">
               На протяжении многих лет наша компания "БИОХИМ" занимается оптовой
               торговлей химической продукцией, и наш опыт в этой сфере является
               нашей гордостью. Мы поставляем все сорта перекиси водорода
@@ -31,7 +31,7 @@ export default () => {
               надежности в бизнесе, и всегда гарантируем, что наши клиенты
               получат свои заказы вовремя и в надлежащем состоянии. Наша команда
               профессионалов всегда готова предоставить вам необходимую
-              информацию и консультации о наших продуктах.
+              информацию и консультации о наших продуктах, а связаться с нами Вы можете любым удобным способом.
             </p>
             {/* <p className="mt-2 text-base leading-8 text-gray-600">
               Наша команда профессионалов всегда готова предоставить вам
