@@ -11,7 +11,7 @@ const post = `
       <article className="mx-auto w-full max-w-4xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert prose">
         <header className="mb-4 lg:mb-6 not-format">
           <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
-            Медицинская перекись водорода. Цена и применение.
+            Концентрированная медицинская перекись водорода 37%. Цена и применение.
           </h1>
         </header>
 
@@ -34,6 +34,7 @@ const post = `
           применения при соблюдении рекомендуемых доз и инструкций.
         </p>
 
+        <strong>Важно! Далее в статье приведены материалы применения медицинской перекиси водорода, которая разбавлена до необходимой для использования концентрации.</strong>
         <h2>Применение медицинской перекиси водорода</h2>
         <p>
           Медицинская перекись водорода имеет множество полезных применений в

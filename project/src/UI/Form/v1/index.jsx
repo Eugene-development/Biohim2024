@@ -188,14 +188,14 @@ export default () => {
                                   <option value="Медицинская 37%">
                                     Медицинская 37%
                                   </option>
-                                  <option value="Марка А 37%">
-                                    Марка А-37%
+                                  <option value="Техническая марка А 37%">
+                                    Техническая марка А-37%
                                   </option>
-                                  <option value="Марка Б 51%">
-                                    Марка Б 51%
+                                  <option value="Техническая марка Б 51%">
+                                    Техническая марка Б 51%
                                   </option>
-                                  <option value="Марка В 60%">
-                                    Марка В 60%
+                                  <option value="Техническая марка В 60%">
+                                    Техническая марка В 60%
                                   </option>
                                   <option value="Пуроксид Асептик">
                                     Пуроксид Асептик
@@ -203,12 +203,13 @@ export default () => {
                                   <option value="Пуроксид Асептик С">
                                     Пуроксид Асептик С
                                   </option>
-                                  <option value="ОСЧ 33-4">
-                                    ОСЧ 33-4
-                                  </option>
                                   <option value="ОСЧ 8-4">
                                     ОСЧ 8-4
                                   </option>
+                                  <option value="ОСЧ 33-4">
+                                    ОСЧ 33-4
+                                  </option>
+
                                 </select>
                               </div>
                             </div>
