@@ -36,22 +36,22 @@ const navigation = [
 const services = [
 	{
 		name: 'Медицинская перекись',
-		href: '/information/payment',
+		href: '/information/medicinskaia',
 		description: 'Все доступные формы оплаты покупки для вашего удобства'
 	},
 	{
 		name: 'Техническая перекись',
-		href: '/information/delivery',
+		href: '/information/tehnicheskaia',
 		description: 'Услуга доставки собственным транспортом до вашего объекта'
 	},
 	{
 		name: 'Асептическая перекись',
-		href: '/information/movers',
+		href: '/information/asepticheskaia',
 		description: 'Если вам необходимы разгрузо-погрузочные работы на вашем объекте'
 	},
 	{
 		name: 'Особо чистая перекись',
-		href: '/information/storage',
+		href: '/information/osobochistaia',
 		description: 'Предоставляем услугу хранения приобретённых вами стройматериалов'
 	}
 ]
