@@ -47,7 +47,7 @@ export default ({posts, headData}) => {
                 data-drawer-target="drawer-read-product-advanced"
                 data-drawer-show="drawer-read-product-advanced"
                 aria-controls="drawer-read-product-advanced"
-                className="w-48 mt-4 py-2 px-8 flex text-sm font-medium text-center text-gray-900 focus:outline-none rounded-lg border border-lime-200  hover:bg-gray-50 hover:text-lime-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                className="w-48 mt-4 py-2 px-8 flex text-base font-medium text-center text-gray-900 focus:outline-none rounded-lg border border-gray-200  hover:bg-gray-50 hover:text-lime-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 <div className="mx-auto flex items-center">
                   <svg
