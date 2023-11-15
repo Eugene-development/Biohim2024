@@ -121,7 +121,7 @@ export default () => {
                     {item.characteristics.map((character, index) => (
                       <li key={`item_${index}`} className="flex space-x-3 ">
                         <svg
-                          className="flex-shrink-0 w-5 h-5 text-cyan-700 dark:text-primary-500"
+                          className="flex-shrink-0 w-5 h-5 text-lime-600 dark:text-primary-500"
                           fill="currentColor"
                           viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ export default () => {
 
                 <button
                   onClick={openVisibleFormConsultation}
-                  className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-cyan-600 hover:bg-lime-500 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                  className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
                 >
                   Запросить оптовую цену
                   <svg

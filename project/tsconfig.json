@@ -30,6 +30,6 @@
     "src/UI/Hero/v1/index.jsx",
     "src/UI/Products/v1/index.jsx",
     "src/UI/Actions/v1/index.jsx"
-, "src/app/information/page.jsx"  ],
+, "src/app/information/page.jsx", "src/UI/Menu/v1/index.jsx"  ],
   "exclude": ["node_modules"]
 }

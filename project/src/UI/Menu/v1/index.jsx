@@ -1,18 +1,70 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
-import { Dialog } from "@headlessui/react";
+import { Fragment, useState } from "react";
+import { Dialog, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
+
+import { useEffect } from 'react'
+
+function OutsideClickHandler({ onOutsideClick, children }) {
+	useEffect(() => {
+		function handleClickOutside(event) {
+			if (event.target && !event.target.closest('.your-target-class')) {
+				onOutsideClick()
+			}
+		}
+
+		document.addEventListener('click', handleClickOutside)
+
+		return () => {
+			document.removeEventListener('click', handleClickOutside)
+		}
+	}, [onOutsideClick])
+
+	return <div>{children}</div>
+}
 
 const navigation = [
   { name: "Главная", href: "/" },
   { name: "Продукция", href: "/production" },
   { name: "Акции", href: "/actions" },
-  { name: "Информация", href: "/information" },
+  // { name: "Информация", href: "/information" },
   { name: "Контакты", href: "/contacts" },
 ];
+
+const services = [
+	{
+		name: 'Медицинская перекись',
+		href: '/information/payment',
+		description: 'Все доступные формы оплаты покупки для вашего удобства'
+	},
+	{
+		name: 'Техническая перекись',
+		href: '/information/delivery',
+		description: 'Услуга доставки собственным транспортом до вашего объекта'
+	},
+	{
+		name: 'Асептическая перекись',
+		href: '/information/movers',
+		description: 'Если вам необходимы разгрузо-погрузочные работы на вашем объекте'
+	},
+	{
+		name: 'Особо чистая перекись',
+		href: '/information/storage',
+		description: 'Предоставляем услугу хранения приобретённых вами стройматериалов'
+	}
+]
+
 export default function index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  	const [showServices, setShowServices] = useState(false)
+
+
+  function handleOutsideClick() {
+		setShowServices(false)
+	}
+
 
   return (
     <header className=" absolute inset-x-0 z-50">
@@ -76,11 +128,60 @@ export default function index() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-base  font-display leading-6 text-white transition ease-in-out hover:scale-125"
+              className="text-base  font-display leading-6 text-white transition ease-in-out hover:scale-125 hover:text-lime-500"
             >
               {item.name}
             </Link>
           ))}
+          <OutsideClickHandler onOutsideClick={handleOutsideClick}>
+							<Popover className="relative">
+								<Popover.Button
+									onClick={() => {
+										setShowServices(!showServices)
+									}}
+									className="outline-none flex items-center gap-x-1 text-base  font-display leading-6 text-white transition ease-in-out hover:scale-125 hover:text-lime-500 "
+								>
+									Информация
+									<ChevronDownIcon
+										className="h-5 w-5 mt-0.5 flex-none text-lime-500"
+										aria-hidden="true"
+									/>
+								</Popover.Button>
+
+								<Transition
+									show={showServices}
+									as={Fragment}
+									enter="transition ease-out duration-200"
+									enterFrom="opacity-0 translate-y-1"
+									enterTo="opacity-100 translate-y-0"
+									leave="transition ease-in duration-150"
+									leaveFrom="opacity-100 translate-y-0"
+									leaveTo="opacity-0 translate-y-1"
+								>
+									<Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-96 rounded-3xl bg-white p-4 shadow-lg ring-1 ring-gray-900/5">
+										{services.map((item) => (
+											<div
+												onClick={() => setShowServices(false)}
+												key={item.name}
+												className="relative rounded-lg p-4 hover:bg-gray-50"
+											>
+												<Link
+													href={item.href}
+													className="block text-sm font-semibold leading-6 text-gray-900"
+												>
+													{item.name}
+													<span className="absolute inset-0" />
+												</Link>
+												{/* <p className="mt-1 text-sm leading-6 text-gray-600">
+													{item.description}
+												</p> */}
+											</div>
+										))}
+									</Popover.Panel>
+								</Transition>
+							</Popover>
+						</OutsideClickHandler>
+
         </div>
       </nav>
       {/* Mobile Menu */}
