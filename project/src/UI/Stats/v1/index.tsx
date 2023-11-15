@@ -11,14 +11,14 @@ export default () => {
   return (
     <div className="relative bg-white">
       <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-        <div className="z-50 px-6 pb-12 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
+        <div className="z-50 px-4 pb-12 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
           <div className="mx-auto px-4 max-w-3xl lg:mx-0">
             <h1 className="mt-4  sm:mt-20 font-bold font-display  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
               {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
               <p className="p-1  mt-2 font-display font-bold text-gray-800 text-xl sm:text-4xl">
                 {" "}
                 Компания{" "}<br/>
-                <span className="text-xl sm:text-7xl font-extrabold">
+                <span className="text-4xl sm:text-7xl font-extrabold">
                   &#171;БИОХИМ&#187;
                 </span>{" "}
               </p>{" "}

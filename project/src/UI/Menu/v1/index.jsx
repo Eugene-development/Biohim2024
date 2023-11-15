@@ -76,7 +76,7 @@ export default function index() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Компания Биохим</span>
             <img
-              className="h-6 sm:h-20 w-auto"
+              className="h-8 sm:h-20 w-auto"
               src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
               alt="логотип"
             />

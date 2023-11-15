@@ -7,7 +7,7 @@ export default () => {
   const { openVisibleFormConsultation } = visibleFormConsultation();
   return (
     <div className="">
-      <div className="relative isolate overflow-hidden pt-32">
+      <div className="relative isolate overflow-hidden sm:pt-32">
         <img
           src="https://storage.yandexcloud.net/biohim/mainpage/background.png"
           alt="perekis"
