@@ -67,7 +67,7 @@ export default function index() {
 
 
   return (
-    <header className=" absolute inset-x-0 z-50">
+    <header className="absolute inset-x-0 z-50">
       <div
         className=" flex items-center justify-between p-6 lg:px-16 "
         aria-label="Global"
@@ -128,7 +128,7 @@ export default function index() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-base  font-display leading-6 text-white transition ease-in-out hover:scale-125 hover:text-lime-500"
+              className="text-base font-display leading-6 text-white transition ease-in-out hover:scale-125 hover:text-lime-500"
             >
               {item.name}
             </Link>
