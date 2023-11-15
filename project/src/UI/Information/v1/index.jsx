@@ -1,17 +1,16 @@
 import Link from "next/link";
 
 
-export default ({posts}) => {
+export default ({posts, headData}) => {
   return (
     <div className="bg-[url('https://mos-522755.oml.ru/d/fon_2.png')] py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-400 dark:border-gray-700">
           <h2 className="mb-4 text-4xl sm:text-6xl tracking-tight font-display font-extrabold text-gray-900 dark:text-white">
-            Информация
+            {headData.headTitle}
           </h2>
           <p className="mb-8 font-light lg:text-xl">
-            Подробная информация о продукции, областях применения и процессах
-            изготовления
+            {headData.headDescription}
           </p>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-10 gap-y-12 sm:gap-y-20   sm:mt-16  lg:mx-0 lg:max-w-none lg:grid-cols-3">
