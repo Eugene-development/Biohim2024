@@ -18,7 +18,7 @@ export default () => {
               <p className="p-1  mt-2 font-display font-bold text-gray-800 text-xl sm:text-4xl">
                 {" "}
                 Компания{" "}<br/>
-                <span className="text-4xl sm:text-7xl font-extrabold">
+                <span className="text-xl sm:text-7xl font-extrabold">
                   &#171;БИОХИМ&#187;
                 </span>{" "}
               </p>{" "}

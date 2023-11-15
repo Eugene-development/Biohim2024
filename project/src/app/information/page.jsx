@@ -5,6 +5,10 @@ export const metadata = {
   description:
     "Статьи о перекиси водорода. Производство и применение в различных отраслях.",
 };
+const headData = {
+  headTitle: "Информация",
+  headDescription: "Подробная информация о перекиси водорода, областях применения и процессах изготовления"
+};
 
 const posts = [
   {
@@ -116,7 +120,7 @@ export default function page() {
         </div>
         <div className=" bg-white mt-24 sm:mt-48">
           <FadeIn>
-            <Information posts={posts}/>
+            <Information posts={posts} headData={headData}/>
           </FadeIn>
         </div>
         <div
