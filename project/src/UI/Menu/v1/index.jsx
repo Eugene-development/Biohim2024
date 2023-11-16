@@ -47,12 +47,12 @@ const services = [
 	{
 		name: 'Асептическая перекись',
 		href: '/information/asepticheskaia',
-		description: 'Если вам необходимы разгрузо-погрузочные работы на вашем объекте'
+		description: 'Если вам необходимы '
 	},
 	{
 		name: 'Особо чистая перекись',
 		href: '/information/osobochistaia',
-		description: 'Предоставляем услугу хранения приобретённых вами стройматериалов'
+		description: 'Предоставляем услугу '
 	}
 ]
 
@@ -81,7 +81,7 @@ export default function index() {
               alt="логотип"
             />
           </Link>
-            <div className="flex ml-4  sm:mt-4 font-display font-bold text-gray-50 text-lg sm:text-5xl">
+            <div className="flex ml-4  sm:mt-4 font-display font-bold text-gray-50 text-2xl sm:text-5xl">
               {" "}
               <p className="hidden xl:block">Компания&nbsp;</p> &#171;БИОХИМ&#187;
             </div>
