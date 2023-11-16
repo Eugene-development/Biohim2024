@@ -23,7 +23,7 @@ export default function index() {
 
         <div className="px-4 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           <FadeIn>
-          <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="relative max-w-xl mx-auto z-40 p-6 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="mx-auto bg-lime-300 p-3 h-24 w-24 rounded-full flex items-center">
               <svg
                 className="mx-auto h-12 w-12 text-gray-800"
@@ -40,8 +40,8 @@ export default function index() {
                 />
               </svg>
             </div>
-            <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-              Цены ниже по сравнению с нашими конкурентами
+            <p className="my-2 py-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              Цены ниже по сравнению с нашими основными конкурентами
             </p>
           </div></FadeIn>
           <FadeIn>
@@ -62,7 +62,7 @@ export default function index() {
                 />
               </svg>
             </div>
-            <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+            <p className="my-2 py-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
               Доставка до объекта заказчика спецтранспортом
             </p>
           </div></FadeIn>
@@ -84,7 +84,7 @@ export default function index() {
                 />
               </svg>
             </div>
-            <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+            <p className="my-2 py-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
               Проверенная концентрация отпускаемой продукции
             </p>
           </div></FadeIn>
@@ -106,7 +106,7 @@ export default function index() {
                 />
               </svg>
             </div>
-            <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+            <p className="my-2 py-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
               Периодические скидки и акции постоянным клиентам
             </p>
           </div></FadeIn>
