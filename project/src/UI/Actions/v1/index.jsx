@@ -1,10 +1,18 @@
 "use client";
+// import { gsap } from "gsap";
+
 import { useFormsStore } from "@/store/forms";
 const { visibleFormConsultation } = useFormsStore;
 
 export default () => {
   const { openVisibleFormConsultation } = visibleFormConsultation();
-
+  // const onEnter = ({ currentTarget }) => {
+  //     gsap.to(currentTarget, { backgroundColor: "#e77614", scale: 1.2 });
+  //   };
+  
+  // const onLeave = ({ currentTarget }) => {
+  //   gsap.to(currentTarget, { backgroundColor: "#28a92b", scale: 1 });
+  // };
   return (
     <section className="bg-[url('https://mos-522755.oml.ru/d/fon_2.png')]  py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -12,6 +20,9 @@ export default () => {
           <h2 className="mb-4 text-4xl sm:text-6xl tracking-tight font-display font-extrabold text-gray-900 dark:text-white">
             Наши акции
           </h2>
+          {/* <h2 onMouseEnter={onEnter} onMouseLeave={onLeave} className="mb-4 text-4xl sm:text-6xl tracking-tight font-display font-extrabold text-gray-900 dark:text-white">
+            Наши акции
+          </h2> */}
           <p className="mb-8 font-light lg:text-xl">
             Наши специальные акции, скидки и прочие выгодные предложения для
             взаимовыгодного сотрудничества
@@ -102,6 +113,9 @@ export default () => {
           </div>
         </div>
       </div>
+      {/* <div className="text-red-700 mx-auto" onMouseEnter={onEnter} onMouseLeave={onLeave}>
+        Hover Me
+      </div> */}
     </section>
   );
 };
