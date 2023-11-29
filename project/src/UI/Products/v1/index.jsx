@@ -2,6 +2,11 @@
 import { useFormsStore } from "@/store/forms";
 const { visibleFormConsultation } = useFormsStore;
 
+import { useQualityStore } from "@/store/quality";
+const { visibleQualityModal } = useQualityStore;
+
+import QualityModal from "./QualityModal";
+
 const productions = [
   {
     name: "Перекись водорода медицинская",
@@ -87,8 +92,12 @@ const productions = [
 
 export default () => {
   const { openVisibleFormConsultation } = visibleFormConsultation();
+  const { openVisibleQualityModal } = visibleQualityModal();
 
   return (
+    <>
+    <QualityModal />
+
     <section className="bg-[url('https://mos-522755.oml.ru/d/fon_2.png')] py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-400 dark:border-gray-700">
@@ -143,8 +152,8 @@ export default () => {
 
 
                 <button
-                  onClick={openVisibleFormConsultation}
-                  className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-gray-900 hover:text-gray-50 rounded-lg bg-gray-50 hover:bg-lime-600 ring-gray-300 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                  onClick={openVisibleQualityModal}
+                  className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-gray-900 hover:text-gray-50 rounded-lg border-lime-500 border-2 bg-gray-50 hover:bg-lime-600 focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-900"
                 >
                   Показатели качества
                   <svg
@@ -199,5 +208,7 @@ export default () => {
         </div>
       </div>
     </section>
+
+    </>
   );
 };

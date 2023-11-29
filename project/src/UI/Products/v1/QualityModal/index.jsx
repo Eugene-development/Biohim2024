@@ -8,21 +8,21 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 // import { useFormsStore } from "@/store/forms";
 // const { visibleFormConsultation } = useFormsStore;
 
-import { useActionStore } from "@/store/action";
-const { visibleActionModal } = useActionStore;
+import { useQualityStore } from "@/store/quality";
+const { visibleQualityModal } = useQualityStore;
 
 export default () => {
   const cancelButtonRef = useRef(null);
-  const { currentVisibleActionModal, closeVisibleActionModal, currentAction } =
-    visibleActionModal();
+  const { currentVisibleQualityModal, closeVisibleQualityModal, currentQuality } =
+    visibleQualityModal();
   // const { openVisibleFormConsultation } = visibleFormConsultation();
   return (
-    <Transition.Root show={currentVisibleActionModal} as={Fragment}>
+    <Transition.Root show={currentVisibleQualityModal} as={Fragment}>
       <Dialog
         as="div"
         className="relative z-10"
         initialFocus={cancelButtonRef}
-        onClose={closeVisibleActionModal}
+        onClose={closeVisibleQualityModal}
       >
         <Transition.Child
           as={Fragment}
@@ -57,21 +57,23 @@ export default () => {
                   </div>
                   
                 </div> */}
+                      <p className="text-2xl font-semibold leading-7 text-gray-600">
+                        Показатели качества
+                      </p>
+
                 <div className="bg-white py-24 sm:py-32">
                   <div className="mx-auto max-w-7xl px-6 lg:px-8">
+
                     <div className="mx-auto max-w-2xl lg:mx-0">
-                      <p className="text-2xl font-semibold leading-7 text-red-600">
-                        Наша акция
-                      </p>
-                      <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        {currentAction.title}
+                      {/* <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                        {currentQuality.title}
                       </h2>
                       <p className="mt-6 text-lg leading-8 text-gray-600">
-                        {currentAction.description}
-                      </p>
-                      <p className="mt-4 text-xl text-gray-800">Условия:</p>
+                        {currentQuality.description}
+                      </p> */}
+                      {/* <p className="mt-4 text-xl text-gray-800">Характеристики:</p> */}
 
-                      {currentAction.conditions?.map(({ title }, i) => (
+                      {currentQuality.conditions?.map(({ title }, i) => (
                         <p
                           className="mt-2 text-lg leading-8 text-gray-600"
                           key={i}
@@ -81,9 +83,6 @@ export default () => {
                         </p>
                       ))}
                     </div>
-                    <p className="text-sm mt-8 leading-7 text-red-600">
-                      Подробности у наших дизайнеров
-                    </p>
                   </div>
                 </div>
 
@@ -91,7 +90,7 @@ export default () => {
                   <button
                     type="button"
                     className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:col-start-1 sm:mt-0"
-                    onClick={closeVisibleActionModal}
+                    onClick={closeVisibleQualityModal}
                     ref={cancelButtonRef}
                   >
                     Закрыть
