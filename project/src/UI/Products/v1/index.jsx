@@ -153,7 +153,7 @@ export default () => {
 
                 <button
                   onClick={openVisibleQualityModal}
-                  className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-gray-900 hover:text-gray-50 rounded-lg border-lime-500 border-2 bg-gray-50 hover:bg-lime-600 focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-900"
+                  className="inline-flex items-center justify-center px-5 py-2.5 mr-3 mb-4 text-base font-medium text-center text-gray-900 hover:text-gray-50 rounded-lg border-lime-500 border-2 bg-gray-50 hover:bg-lime-600 focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-900"
                 >
                   Показатели качества
                   <svg
