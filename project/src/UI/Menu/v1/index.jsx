@@ -67,7 +67,7 @@ export default function index() {
 
 
   return (
-    <header className="absolute inset-x-0 z-50">
+    <header className="  absolute inset-x-0 z-50">
       <div
         className=" flex items-center justify-between p-6 lg:px-16 "
         aria-label="Global"
@@ -89,7 +89,7 @@ export default function index() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
           
-          <div>
+          <div >
             <p className="ml-3 my-2 bp-1 text-lg text-lime-300">
               biohim.org@yandex.ru
             </p>
