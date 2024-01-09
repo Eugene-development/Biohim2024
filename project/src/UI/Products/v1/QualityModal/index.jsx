@@ -11,11 +11,15 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 import { useQualityStore } from "@/store/quality";
 const { visibleQualityModal } = useQualityStore;
 
+const qualityList = [
+  { number: 'Lindsay Walton', title: 'Front-end Developer', norm: 'lindsay.walton@example.com', result: 'Member' },
+  // More people...
+]
+
 export default () => {
   const cancelButtonRef = useRef(null);
   const { currentVisibleQualityModal, closeVisibleQualityModal, currentQuality } =
     visibleQualityModal();
-  // const { openVisibleFormConsultation } = visibleFormConsultation();
   return (
     <Transition.Root show={currentVisibleQualityModal} as={Fragment}>
       <Dialog
@@ -61,6 +65,44 @@ export default () => {
                         Показатели качества
                       </p>
 
+                            <div className="mt-8 flow-root">
+        <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+          <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+            <table className="min-w-full divide-y divide-gray-300">
+              <thead>
+                <tr className="divide-x divide-gray-200">
+                  <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-0">
+                    № п/п
+                  </th>
+                  <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-900">
+                    Наименование показателя
+                  </th>
+                  <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-900">
+                    Норма
+                  </th>
+                  <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pr-0">
+                    Результаты испытаний
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {qualityList.map((item) => (
+                  <tr key={item.title} className="divide-x divide-gray-200">
+                    <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm font-medium text-gray-900 sm:pl-0">
+                      {item.number}
+                    </td>
+                    <td className="whitespace-nowrap p-4 text-sm text-gray-500">{item.title}</td>
+                    <td className="whitespace-nowrap p-4 text-sm text-gray-500">{item.norm}</td>
+                    <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-0">{item.result}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
                 <div className="bg-white py-24 sm:py-32">
                   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -72,6 +114,7 @@ export default () => {
                         {currentQuality.description}
                       </p> */}
                       {/* <p className="mt-4 text-xl text-gray-800">Характеристики:</p> */}
+
 
                       {currentQuality.conditions?.map(({ title }, i) => (
                         <p
@@ -104,3 +147,10 @@ export default () => {
     </Transition.Root>
   );
 };
+
+
+
+
+
+
+
