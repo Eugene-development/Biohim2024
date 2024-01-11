@@ -9,7 +9,7 @@ export default () => {
   // const onEnter = ({ currentTarget }) => {
   //     gsap.to(currentTarget, { backgroundColor: "#e77614", scale: 1.2 });
   //   };
-  
+
   // const onLeave = ({ currentTarget }) => {
   //   gsap.to(currentTarget, { backgroundColor: "#28a92b", scale: 1 });
   // };

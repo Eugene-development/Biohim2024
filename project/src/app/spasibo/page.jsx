@@ -2,8 +2,7 @@ import { Spasibo } from "@/UI";
 import { FadeIn } from "@/func/motion/FadeIn";
 export const metadata = {
   title: "Компания Биохим | Страница благодарности",
-  description:
-    "Спасибо за вашу заявку",
+  description: "Спасибо за вашу заявку",
 };
 
 export default function page() {

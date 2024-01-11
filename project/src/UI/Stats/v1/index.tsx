@@ -17,7 +17,7 @@ export default () => {
               {/* компания <span className="lg:text-7xl">&#171;БИОХИМ&#187;</span>  */}
               <p className="p-1  mt-2 font-display font-bold text-gray-800 text-xl sm:text-4xl">
                 {" "}
-                Компания{" "}<br/>
+                Компания <br />
                 <span className="text-4xl sm:text-7xl font-extrabold">
                   &#171;БИОХИМ&#187;
                 </span>{" "}
@@ -32,7 +32,8 @@ export default () => {
               надежности в бизнесе, и всегда гарантируем, что наши клиенты
               получат свои заказы вовремя и в надлежащем состоянии. Наша команда
               профессионалов всегда готова предоставить вам необходимую
-              информацию и консультации о наших продуктах, а связаться с нами Вы можете любым удобным способом.
+              информацию и консультации о наших продуктах, а связаться с нами Вы
+              можете любым удобным способом.
             </p>
             {/* <p className="mt-2 text-base leading-8 text-gray-600">
               Наша команда профессионалов всегда готова предоставить вам
@@ -61,26 +62,26 @@ export default () => {
             </div>
           </div>
 
-        <FadeIn>
-          <div className="hidden md:block">
-            <dl className=" mt-12 lg:-mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-1 lg:grid-cols-3 shadow-2xl">
-              {stats.map((stat) => (
-                <div
-                  key={stat.id}
-                  className=" flex flex-col bg-indigo-950 px-8 py-6"
-                >
-                  <dd className=" order-first text-4xl font-semibold tracking-tight text-lime-200">
-                    {stat.value}
-                  </dd>
+          <FadeIn>
+            <div className="hidden md:block">
+              <dl className=" mt-12 lg:-mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-1 lg:grid-cols-3 shadow-2xl">
+                {stats.map((stat) => (
+                  <div
+                    key={stat.id}
+                    className=" flex flex-col bg-indigo-950 px-8 py-6"
+                  >
+                    <dd className=" order-first text-4xl font-semibold tracking-tight text-lime-200">
+                      {stat.value}
+                    </dd>
 
-                  <dt className="mt-4 text-base font-semibold leading-6 text-gray-100">
-                    {stat.name}
-                  </dt>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </FadeIn>
+                    <dt className="mt-4 text-base font-semibold leading-6 text-gray-100">
+                      {stat.name}
+                    </dt>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </FadeIn>
         </div>
         <div className="hidden lg:block z-40 relative lg:col-span-5 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
           <img

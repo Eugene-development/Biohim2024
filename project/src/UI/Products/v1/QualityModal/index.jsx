@@ -11,15 +11,22 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 import { useQualityStore } from "@/store/quality";
 const { visibleQualityModal } = useQualityStore;
 
-const qualityList = [
-  { number: 'Lindsay Walton', title: 'Front-end Developer', norm: 'lindsay.walton@example.com', result: 'Member' },
-  // More people...
-]
+// const qualityList = [
+//   { number: 1, title: 'Внешний вид', norm: 'Бесцветная прозрачная жидкость', result: 'Соответствует' },
+//   { number: 2, title: 'Массовая доля перекиси водорода, %', norm: '30-40', result: '37,0' },
+//   { number: 3, title: 'Массовая концентрация серной кислоты, г/дм.куб, не более', norm: '0,30', result: '0,13' },
+//   { number: 4, title: 'Массовая концентрация нелетучего остатка, г/дм, не более', norm: '0,6', result: '0,6' },
+//   { number: 5, title: 'Содержание мышьяка', norm: 'Должна выдерживать испытания по п.3.6', result: 'Выдерживает испытания' },
+// ]
 
 export default () => {
   const cancelButtonRef = useRef(null);
-  const { currentVisibleQualityModal, closeVisibleQualityModal, currentQuality } =
-    visibleQualityModal();
+  const {
+    currentVisibleQualityModal,
+    closeVisibleQualityModal,
+    currentQuality,
+  } = visibleQualityModal();
+
   return (
     <Transition.Root show={currentVisibleQualityModal} as={Fragment}>
       <Dialog
@@ -61,75 +68,69 @@ export default () => {
                   </div>
                   
                 </div> */}
-                      <p className="text-2xl font-semibold leading-7 text-gray-600">
-                        Показатели качества
-                      </p>
+                <p className="text-2xl font-semibold leading-7 text-gray-600">
+                  Показатели качества
+                </p>
 
-                            <div className="mt-8 flow-root">
-        <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-          <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-            <table className="min-w-full divide-y divide-gray-300">
-              <thead>
-                <tr className="divide-x divide-gray-200">
-                  <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-0">
-                    № п/п
-                  </th>
-                  <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-900">
-                    Наименование показателя
-                  </th>
-                  <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-900">
-                    Норма
-                  </th>
-                  <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pr-0">
-                    Результаты испытаний
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200 bg-white">
-                {qualityList.map((item) => (
-                  <tr key={item.title} className="divide-x divide-gray-200">
-                    <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm font-medium text-gray-900 sm:pl-0">
-                      {item.number}
-                    </td>
-                    <td className="whitespace-nowrap p-4 text-sm text-gray-500">{item.title}</td>
-                    <td className="whitespace-nowrap p-4 text-sm text-gray-500">{item.norm}</td>
-                    <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-0">{item.result}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-
-                <div className="bg-white py-24 sm:py-32">
-                  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-
-                    <div className="mx-auto max-w-2xl lg:mx-0">
-                      {/* <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        {currentQuality.title}
-                      </h2>
-                      <p className="mt-6 text-lg leading-8 text-gray-600">
-                        {currentQuality.description}
-                      </p> */}
-                      {/* <p className="mt-4 text-xl text-gray-800">Характеристики:</p> */}
-
-
-                      {currentQuality.conditions?.map(({ title }, i) => (
-                        <p
-                          className="mt-2 text-lg leading-8 text-gray-600"
-                          key={i}
-                        >
-                          <span className="text-gray-800">{i + 1}.</span>{" "}
-                          {title}
-                        </p>
-                      ))}
+                <div className="mt-8 flow-root border-y">
+                  <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 ">
+                    <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                      <table className="min-w-full divide-y divide-gray-300">
+                        <thead>
+                          <tr className="divide-x divide-gray-200">
+                            <th
+                              scope="col"
+                              className="py-3.5 pl-4 pr-1 text-left text-sm font-semibold text-gray-900 sm:pl-0"
+                            >
+                              № п/п
+                            </th>
+                            <th
+                              scope="col"
+                              className="px-4 py-3.5 text-left text-sm font-semibold text-gray-900"
+                            >
+                              Наименование показателя
+                            </th>
+                            <th
+                              scope="col"
+                              className="px-4 py-3.5 text-left text-sm font-semibold text-gray-900"
+                            >
+                              Норма
+                            </th>
+                            <th
+                              scope="col"
+                              className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pr-0"
+                            >
+                              Результаты испытаний
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200 bg-white">
+                          {currentQuality?.map((item) => (
+                            <tr
+                              key={item.title}
+                              className="divide-x divide-gray-200"
+                            >
+                              <td className="whitespace-nowrap py-4 pl-4 pr-1 text-sm font-medium text-gray-900 sm:pl-0">
+                                {item.number}
+                              </td>
+                              <td className="whitespace-nowrap p-4 text-sm text-gray-500">
+                                {item.title}
+                              </td>
+                              <td className="whitespace-nowrap p-4 text-sm text-gray-500">
+                                {item.norm}
+                              </td>
+                              <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-0">
+                                {item.result}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
 
-                <div className="mt-5 sm:mt-6">
+                <div className="mt-6 sm:mt-12">
                   <button
                     type="button"
                     className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:col-start-1 sm:mt-0"
@@ -147,10 +148,3 @@ export default () => {
     </Transition.Root>
   );
 };
-
-
-
-
-
-
-

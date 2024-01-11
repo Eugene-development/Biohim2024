@@ -8,7 +8,8 @@ export const metadata = {
 
 const headData = {
   headTitle: "Асептическая перекись водорода",
-  headDescription: "Подробная информация о асептической перекиси водорода, областях применения и процессах изготовления"
+  headDescription:
+    "Подробная информация о асептической перекиси водорода, областях применения и процессах изготовления",
 };
 
 const posts = [
@@ -30,7 +31,6 @@ const posts = [
     },
   },
 ];
-
 
 export default function page() {
   return (
@@ -55,7 +55,7 @@ export default function page() {
         </div>
         <div className=" bg-white mt-24 sm:mt-48">
           <FadeIn>
-            <Information posts={posts} headData={headData}/>
+            <Information posts={posts} headData={headData} />
           </FadeIn>
         </div>
         <div

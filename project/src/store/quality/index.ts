@@ -2,9 +2,9 @@ import { create } from "zustand";
 
 const visibleQualityModal = create((set) => ({
   currentVisibleQualityModal: false,
-  currentQuality: [],
-  openVisibleQualityModal: (action: any) => {
-    set(() => ({ currentQuality: action }));
+  currentQuality: null,
+  openVisibleQualityModal: (qualityList: any) => {
+    set(() => ({ currentQuality: qualityList }));
     set(() => ({ currentVisibleQualityModal: true }));
   },
   closeVisibleQualityModal: () =>

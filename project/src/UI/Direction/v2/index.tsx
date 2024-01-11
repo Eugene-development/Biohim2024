@@ -22,24 +22,24 @@ export default function index() {
               alt="продукция"
             />
             <FadeIn>
-            <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
-              <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
-                Продукция
-              </span>
-              <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Медицинская перекись водорода
-              </h2>
-              <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Применяется в медицинской, фармацевтической, косметической,
-                пищевой и в других видах промышленности.
-              </p>
-              <Link
-                href="/information/1"
-                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-              >
-                Подробнее
-              </Link>
-            </div>
+              <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
+                  Продукция
+                </span>
+                <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Медицинская перекись водорода
+                </h2>
+                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                  Применяется в медицинской, фармацевтической, косметической,
+                  пищевой и в других видах промышленности.
+                </p>
+                <Link
+                  href="/information/1"
+                  className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                >
+                  Подробнее
+                </Link>
+              </div>
             </FadeIn>
           </div>
           <div>
@@ -49,24 +49,24 @@ export default function index() {
               alt="продукция"
             />
             <FadeIn>
-            <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
-              <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
-                Продукция
-              </span>
-              <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Техническая перекись водорода
-              </h2>
-              <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Применяется в целлюлозно-бумажной, текстильной,  химической,
-                деревообрабатывающей и в других видах промышленности.
-              </p>
-              <Link
-                href="/information/2"
-                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-              >
-                Подробнее
-              </Link>
-            </div>
+              <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
+                  Продукция
+                </span>
+                <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Техническая перекись водорода
+                </h2>
+                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                  Применяется в целлюлозно-бумажной, текстильной, химической,
+                  деревообрабатывающей и в других видах промышленности.
+                </p>
+                <Link
+                  href="/information/2"
+                  className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                >
+                  Подробнее
+                </Link>
+              </div>
             </FadeIn>
           </div>
           <div>
@@ -76,25 +76,25 @@ export default function index() {
               alt="продукция"
             />
             <FadeIn>
-            <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
-              <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
-                Продукция
-              </span>
-              <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Асептическая перекись водорода
-              </h2>
-              <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Пероксид водорода асептический применяются в пищевой
-                промышленности для асептической обработки упаковочных
-                материалов.
-              </p>
-              <Link
-                href="/information/3"
-                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-              >
-                Подробнее
-              </Link>
-            </div>
+              <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
+                  Продукция
+                </span>
+                <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Асептическая перекись водорода
+                </h2>
+                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                  Пероксид водорода асептический применяются в пищевой
+                  промышленности для асептической обработки упаковочных
+                  материалов.
+                </p>
+                <Link
+                  href="/information/3"
+                  className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                >
+                  Подробнее
+                </Link>
+              </div>
             </FadeIn>
           </div>
           <div>
@@ -104,24 +104,25 @@ export default function index() {
               alt="продукция"
             />
             <FadeIn>
-            <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
-              <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
-                Продукция
-              </span>
-              <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Особо чистая перекись (ОСЧ)
-              </h2>
-              <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
-                Применяется в технических целях в радиоэлектронной аппаратуре.
-                Используется в полупроводниках, космической технике и приборах.
-              </p>
-              <Link
-                href="/information/4"
-                className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-              >
-                Подробнее
-              </Link>
-            </div>
+              <div className="relative z-40 mx-2 sm:mx-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                <span className="bg-lime-100 text-lime-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">
+                  Продукция
+                </span>
+                <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Особо чистая перекись (ОСЧ)
+                </h2>
+                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                  Применяется в технических целях в радиоэлектронной аппаратуре.
+                  Используется в полупроводниках, космической технике и
+                  приборах.
+                </p>
+                <Link
+                  href="/information/4"
+                  className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-lime-300 rounded-lg hover:bg-lime-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                >
+                  Подробнее
+                </Link>
+              </div>
             </FadeIn>
           </div>
         </div>

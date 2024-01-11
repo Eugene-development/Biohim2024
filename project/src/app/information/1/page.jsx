@@ -3,8 +3,7 @@ import { FadeIn } from "@/func/motion/FadeIn";
 
 export const metadata = {
   title: "Компания Биохим | Медицинская перекись водорода",
-  description:
-    "Информация о медицинской перекиси водорода",
+  description: "Информация о медицинской перекиси водорода",
 };
 
 const post = `

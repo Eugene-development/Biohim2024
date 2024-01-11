@@ -27,21 +27,23 @@ export default () => {
         </div>
         <div className=" max-w-4xl px-3 sm:px-10 cm:px-12 py-32 sm:py-24 ">
           <div className="p-3  text-left ">
-			<div className="ml-4">
-            <p className="text-gray-50 text-xl sm:text-4xl">оптом и в розницу</p>
-            <h1 className="text-4xl mt-4 font-bold font-display tracking-tight text-white sm:text-6xl">
-              <span className="font-extrabold tracking-wider">ПЕРЕКИСЬ</span>{" "}
-              <span className="font-extrabold tracking-wider sm:text-7xl">
-                ВОДОРОДА
-              </span>
-              <br /> H<span className="text-2xl">2</span>O
-              <span className="text-2xl">2</span>
-            </h1>
-			</div>
+            <div className="ml-4">
+              <p className="text-gray-50 text-xl sm:text-4xl">
+                оптом и в розницу
+              </p>
+              <h1 className="text-4xl mt-4 font-bold font-display tracking-tight text-white sm:text-6xl">
+                <span className="font-extrabold tracking-wider">ПЕРЕКИСЬ</span>{" "}
+                <span className="font-extrabold tracking-wider sm:text-7xl">
+                  ВОДОРОДА
+                </span>
+                <br /> H<span className="text-2xl">2</span>O
+                <span className="text-2xl">2</span>
+              </h1>
+            </div>
             <p className="max-w-2xl p-4 mt-6 sm:mt-12 text-base sm:text-lg leading-8 text-white bg-gray-900/30">
               "Техническая", "Медицинская", "Асептическая", "Особо Чистая"{" "}
-               перекись водорода в канистрах 10л, 30л и в кубовых ёмкостях
-              по оптовым ценам от заводов производителей с доставкой или
+              перекись водорода в канистрах 10л, 30л и в кубовых ёмкостях по
+              оптовым ценам от заводов производителей с доставкой или
               самовывозом.
             </p>
             <div className="mt-10 ml-4 flex items-center justify-left gap-x-6">

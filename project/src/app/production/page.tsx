@@ -2,8 +2,7 @@ import { Products } from "@/UI";
 import { FadeIn } from "@/func/motion/FadeIn";
 export const metadata = {
   title: "Компания Биохим | Продукция",
-  description:
-    "Все виды перекиси водорода, которую предлагает наша компания",
+  description: "Все виды перекиси водорода, которую предлагает наша компания",
 };
 
 export default function page() {

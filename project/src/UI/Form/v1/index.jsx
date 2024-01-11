@@ -203,13 +203,8 @@ export default () => {
                                   <option value="Пуроксид Асептик С">
                                     Пуроксид Асептик С
                                   </option>
-                                  <option value="ОСЧ 8-4">
-                                    ОСЧ 8-4
-                                  </option>
-                                  <option value="ОСЧ 33-4">
-                                    ОСЧ 33-4
-                                  </option>
-
+                                  <option value="ОСЧ 8-4">ОСЧ 8-4</option>
+                                  <option value="ОСЧ 33-4">ОСЧ 33-4</option>
                                 </select>
                               </div>
                             </div>

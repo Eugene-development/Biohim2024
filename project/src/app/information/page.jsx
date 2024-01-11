@@ -7,7 +7,8 @@ export const metadata = {
 };
 const headData = {
   headTitle: "Информация",
-  headDescription: "Подробная информация о перекиси водорода, областях применения и процессах изготовления"
+  headDescription:
+    "Подробная информация о перекиси водорода, областях применения и процессах изготовления",
 };
 
 const posts = [
@@ -15,7 +16,8 @@ const posts = [
     id: 1,
     title: "Медицинская перекись водорода.",
     href: "/information/1",
-    description: "Медицинская перекись водорода - это уникальное химическое соединение, которое нашло широкое применение в медицинской практике благодаря своим многочисленным полезным свойств",
+    description:
+      "Медицинская перекись водорода - это уникальное химическое соединение, которое нашло широкое применение в медицинской практике благодаря своим многочисленным полезным свойств",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { title: "Применение", href: "#" },
@@ -120,7 +122,7 @@ export default function page() {
         </div>
         <div className=" bg-white mt-24 sm:mt-48">
           <FadeIn>
-            <Information posts={posts} headData={headData}/>
+            <Information posts={posts} headData={headData} />
           </FadeIn>
         </div>
         <div

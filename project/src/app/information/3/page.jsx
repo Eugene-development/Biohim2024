@@ -3,8 +3,7 @@ import { FadeIn } from "@/func/motion/FadeIn";
 
 export const metadata = {
   title: "Компания Биохим | Пуроксид Асептик",
-  description:
-    "Информация об асептической перекиси водорода",
+  description: "Информация об асептической перекиси водорода",
 };
 
 const post = `
