@@ -58,7 +58,7 @@ export default () => {
               leaveFrom="opacity-75 translate-y-0 sm:scale-100"
               leaveTo="opacity-25 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-6xl sm:p-6">
+              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-7xl sm:p-6">
                 {/* <div>
                   <div className="mx-auto flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-green-100">
                     <CheckIcon
@@ -80,7 +80,7 @@ export default () => {
                           <tr className="divide-x divide-gray-200">
                             <th
                               scope="col"
-                              className="py-3.5 pl-4 pr-1 text-left text-sm font-semibold text-gray-900 sm:pl-0"
+                              className="py-3.5 pl-4 pr-1 text-left text-sm font-semibold text-gray-900 sm:pl-0 whitespace-nowrap"
                             >
                               № п/п
                             </th>
