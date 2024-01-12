@@ -5,19 +5,8 @@ import { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/24/outline";
 
-// import { useFormsStore } from "@/store/forms";
-// const { visibleFormConsultation } = useFormsStore;
-
 import { useQualityStore } from "@/store/quality";
 const { visibleQualityModal } = useQualityStore;
-
-// const qualityList = [
-//   { number: 1, title: 'Внешний вид', norm: 'Бесцветная прозрачная жидкость', result: 'Соответствует' },
-//   { number: 2, title: 'Массовая доля перекиси водорода, %', norm: '30-40', result: '37,0' },
-//   { number: 3, title: 'Массовая концентрация серной кислоты, г/дм.куб, не более', norm: '0,30', result: '0,13' },
-//   { number: 4, title: 'Массовая концентрация нелетучего остатка, г/дм, не более', norm: '0,6', result: '0,6' },
-//   { number: 5, title: 'Содержание мышьяка', norm: 'Должна выдерживать испытания по п.3.6', result: 'Выдерживает испытания' },
-// ]
 
 export default () => {
   const cancelButtonRef = useRef(null);
