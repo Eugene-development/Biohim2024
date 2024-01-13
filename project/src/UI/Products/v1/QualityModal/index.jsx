@@ -105,10 +105,12 @@ export default () => {
                               <td className="whitespace-nowrap p-4 text-sm text-gray-500">
                                 {item.title}
                               </td>
-                              <td className="whitespace-nowrap p-4 text-sm text-gray-500">
-                                {item.norm}
+                              <td className="whitespace-nowrap p-4 text-base text-gray-500">
+                                {typeof item.norm === 'number'
+                                  ? item.norm
+                                  : item.norm}
                               </td>
-                              <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-0">
+                              <td className="whitespace-nowrap py-4 pl-4 pr-4 text-base text-gray-500 sm:pr-0">
                                 {item.result}
                               </td>
                             </tr>
